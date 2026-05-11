@@ -23,9 +23,10 @@ if (testStatus === "pending") {
 
 // console.log(executionTime); // ReferenceError: executionTime is not defined
 
+// Example of Block
 // {} - Block 
-// if(){} 
-// funcion name(){}
+// if(){}  - Block 
+// funcion name(){} - Block 
 
 // let = loyal
 // var = varirable / triator
