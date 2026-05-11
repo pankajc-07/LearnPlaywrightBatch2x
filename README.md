@@ -33,7 +33,19 @@ LearnPlaywrightBatch2x/
 ├── chapter_03_Identifier_Literals/
 │   ├── 06_Identifier_Rules.js
 │   ├── 07_Identifier_Part2.js
+│   ├── 08_Comments.js
+│   ├── ArraysPractice01.js
 │   └── VS_Code_keyboard_shortcut_win.md
+├── chapter_04_Javascript_Concepts/
+│   ├── 09_var_let_const.js
+│   ├── 10_functions.js
+│   ├── 11_var_explained.js
+│   ├── 12_let_peope_love.js
+│   ├── 13_const_explained.js
+│   ├── 14_var_functionscope.js
+│   ├── 15_let_scope.js
+│   ├── 16_Hoisting.js
+│   └── 17_hoisting_fn.js
 └── README.md
 ```
 
@@ -63,9 +75,23 @@ Understanding JavaScript identifiers, naming conventions, and literal values.
 **Files:**
 - `06_Identifier_Rules.js` - Rules for JavaScript identifiers
 - `07_Identifier_Part2.js` - Identifier rules with examples and naming conventions
-  - Identifier rules with practical code examples
-  - Naming conventions: camelCase, PascalCase, snake_case, UPPER_CASE
+- `08_Comments.js` - Comments in JavaScript
+- `ArraysPractice01.js` - Array practice exercises
 - `VS_Code_keyboard_shortcut_win.md` - Windows keyboard shortcuts for VS Code
+
+### Chapter 4: JavaScript Concepts
+Advanced JavaScript concepts including variables, functions, scoping, and hoisting.
+
+**Files:**
+- `09_var_let_const.js` - Variable declarations with var, let, and const
+- `10_functions.js` - Function declarations and expressions
+- `11_var_explained.js` - Detailed explanation of var
+- `12_let_peope_love.js` - Understanding let keyword
+- `13_const_explained.js` - Understanding const keyword
+- `14_var_functionscope.js` - Function scope with var
+- `15_let_scope.js` - Block scope with let
+- `16_Hoisting.js` - Variable and function hoisting
+- `17_hoisting_fn.js` - Hoisting with functions
 
 ## Getting Started
 
