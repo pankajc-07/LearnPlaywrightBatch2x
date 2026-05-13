@@ -45,7 +45,20 @@ LearnPlaywrightBatch2x/
 │   ├── 14_var_functionscope.js
 │   ├── 15_let_scope.js
 │   ├── 16_Hoisting.js
-│   └── 17_hoisting_fn.js
+│   ├── 17_hoisting_fn.js
+│   ├── 18_let_hoisting.js
+│   ├── 19_let_hoisting_block.js
+│   ├── 20_let_const.js
+│   └── 21_Jr_QA.js
+├── chapter_05_Literal/
+│   ├── 22_Literal.js
+│   ├── 23_null_undefined.js
+│   ├── 24_null.js
+│   ├── 25_Literal_all.js
+│   ├── 26_Literal_Number_all.js
+│   ├── 27_Strings.js
+│   ├── 28_Template_Literal.js
+│   └── 29_Backtick_single_double.js
 └── README.md
 ```
 
@@ -92,6 +105,23 @@ Advanced JavaScript concepts including variables, functions, scoping, and hoisti
 - `15_let_scope.js` - Block scope with let
 - `16_Hoisting.js` - Variable and function hoisting
 - `17_hoisting_fn.js` - Hoisting with functions
+- `18_let_hoisting.js` - Let hoisting behavior
+- `19_let_hoisting_block.js` - Let hoisting inside blocks
+- `20_let_const.js` - Let and const comparison
+- `21_Jr_QA.js` - Junior QA concept exercises
+
+### Chapter 5: Literals
+Exploring JavaScript literals including numbers, strings, null, undefined, and template literals.
+
+**Files:**
+- `22_Literal.js` - Introduction to literals
+- `23_null_undefined.js` - Difference between null and undefined
+- `24_null.js` - Understanding null
+- `25_Literal_all.js` - All literal types overview
+- `26_Literal_Number_all.js` - All number types in JavaScript
+- `27_Strings.js` - String literals and methods
+- `28_Template_Literal.js` - Template literals with backticks
+- `29_Backtick_single_double.js` - Difference between backtick, single, and double quotes
 
 ## Getting Started
 
@@ -130,7 +160,8 @@ node chapter_01_Basics/01_Basics.js
 1. Start with Chapter 1 to understand JavaScript basics
 2. Move to Chapter 2 for deeper JavaScript concepts
 3. Review Chapter 3 for proper identifier naming and coding conventions
-4. Use the provided keyboard shortcuts to enhance your VS Code workflow
+4. Explore Chapter 4 for advanced JavaScript concepts like hoisting and scope
+5. Study Chapter 5 to master literals, strings, and number types
 
 ## Tips for Success
 
@@ -149,4 +180,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 12, 2026
+**Last Updated:** May 13, 2026
