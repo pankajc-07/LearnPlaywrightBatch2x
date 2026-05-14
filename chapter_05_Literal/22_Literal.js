@@ -13,4 +13,23 @@ console.log(typeof pi);
 console.log(typeof name);
 console.log(typeof nullValue);
 console.log(typeof undefinedValue);
+console.log("*******************************");
+
+let num01 = 700.0001;
+var num02 = 800.0001;
+const num03 = 900.001;
+let str01 = "Hi how are you";
+var str02 = 'Hi where are "you!"'
+const str03 = 'Hi Good Morning!'
+let noValue = null;
+let undefined;
+
+console.log(typeof num01);
+console.log(typeof num02);
+console.log(typeof num03);
+console.log(typeof str01);
+console.log(typeof str02);
+console.log(typeof str03);
+console.log(typeof noValue);
+console.log(typeof undefined);
 

@@ -37,3 +37,18 @@ console.log(multiLine);
 │ `Backtick`   │ Template literal: ${variable} + multi-line   │
 └──────────────┴──────────────────────────────────────────────┘
 */
+console.log("*********************");
+
+let str01 = 'Pankaj';
+let str02 = "India";
+let num01 = 123456789;
+let num02 = 1234567;
+
+let multiLine01 = `
+Name: ${str01}
+Country: ${str02}
+MobileNumber: ${num01}
+Code: ${num02}
+`;
+
+console.log(multiLine01);

@@ -41,3 +41,32 @@ const payload = `{
 }`;
 console.log(payload);
 */
+console.log("************************");
+
+let name01 = 'Pankaj';
+let num01 = 246810;
+var name02 = "India";
+const num02 = 13579;
+
+let sentence01 = `Hi ${name01} this is ${num01} my number and ${name02} is my country with code ${num02}`;
+console.log(sentence01);
+console.log("************************");
+
+let env01 = 'Master';
+let userId01 = 1234567;
+let user01 = "admin";
+let page01 = "Home";
+
+let URL = `https://website.test/${env01}/${user01}/${page01}/${userId01}`;
+console.log(URL);
+console.log("************************");
+
+let env02 = 'Stage';
+let result02 = "PASS";
+let time = Date.now();
+console.log(time);
+
+let screenShot02 = `Test is ${result02} on ${env02} server, and screenshot is "${env02}_${result02}_${time}.png"`;
+console.log(screenShot02);
+
+
