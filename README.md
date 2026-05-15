@@ -59,6 +59,16 @@ LearnPlaywrightBatch2x/
 │   ├── 27_Strings.js
 │   ├── 28_Template_Literal.js
 │   └── 29_Backtick_single_double.js
+├── chapter_06_Opretors/
+│   ├── 30_Opretors.js
+│   ├── 31_Arithmetic_Operators.js
+│   ├── 32_Modulus_OP.js
+│   ├── 33_Expo_OP.js
+│   ├── 34_IQ.js
+│   ├── 35_Comparsion_OP.js
+│   ├── 36_Comparsion_Strict_loose.js
+│   ├── 37_IQ_Loose_Strict.js
+│   └── 38_Confusing_Comparsion.js
 └── README.md
 ```
 
@@ -123,6 +133,20 @@ Exploring JavaScript literals including numbers, strings, null, undefined, and t
 - `28_Template_Literal.js` - Template literals with backticks
 - `29_Backtick_single_double.js` - Difference between backtick, single, and double quotes
 
+### Chapter 6: Operators
+Understanding JavaScript operators including arithmetic, comparison, strict vs loose equality, and edge cases.
+
+**Files:**
+- `30_Opretors.js` - Introduction to operators
+- `31_Arithmetic_Operators.js` - Arithmetic operators
+- `32_Modulus_OP.js` - Modulus operator
+- `33_Expo_OP.js` - Exponentiation operator
+- `34_IQ.js` - Interview questions on operators
+- `35_Comparsion_OP.js` - Comparison operators
+- `36_Comparsion_Strict_loose.js` - Strict vs loose comparison
+- `37_IQ_Loose_Strict.js` - Interview questions on loose and strict equality
+- `38_Confusing_Comparsion.js` - Confusing comparison edge cases with == and ===
+
 ## Getting Started
 
 ### Prerequisites
@@ -162,6 +186,7 @@ node chapter_01_Basics/01_Basics.js
 3. Review Chapter 3 for proper identifier naming and coding conventions
 4. Explore Chapter 4 for advanced JavaScript concepts like hoisting and scope
 5. Study Chapter 5 to master literals, strings, and number types
+6. Dive into Chapter 6 to learn operators and avoid common == vs === pitfalls
 
 ## Tips for Success
 
@@ -180,4 +205,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 14, 2026
+**Last Updated:** May 15, 2026
