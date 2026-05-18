@@ -68,7 +68,16 @@ LearnPlaywrightBatch2x/
 │   ├── 35_Comparsion_OP.js
 │   ├── 36_Comparsion_Strict_loose.js
 │   ├── 37_IQ_Loose_Strict.js
-│   └── 38_Confusing_Comparsion.js
+│   ├── 38_Confusing_Comparsion.js
+│   ├── 39_Logical_Op.js
+│   ├── 40_String_Con_Op.js
+│   ├── 41_Ternary_Op.js
+│   ├── 42_Type_Op.js
+│   ├── 43_Incre_Decre_Op.js
+│   ├── 44_Null_Op.js
+│   ├── 45_Post_Incriment.js
+│   ├── 46_IQ_Incriment_D.js
+│   └── 47_Advance_Incriment_Decriment.js
 └── README.md
 ```
 
@@ -146,6 +155,15 @@ Understanding JavaScript operators including arithmetic, comparison, strict vs l
 - `36_Comparsion_Strict_loose.js` - Strict vs loose comparison
 - `37_IQ_Loose_Strict.js` - Interview questions on loose and strict equality
 - `38_Confusing_Comparsion.js` - Confusing comparison edge cases with == and ===
+- `39_Logical_Op.js` - Logical operators (AND, OR, NOT)
+- `40_String_Con_Op.js` - String concatenation operators
+- `41_Ternary_Op.js` - Ternary operator with nested examples
+- `42_Type_Op.js` - Typeof operator for checking data types
+- `43_Incre_Decre_Op.js` - Pre-increment and pre-decrement operators
+- `44_Null_Op.js` - Nullish coalescing operator (??)
+- `45_Post_Incriment.js` - Post-increment and post-decrement operators
+- `46_IQ_Incriment_D.js` - Interview questions on increment/decrement
+- `47_Advance_Incriment_Decriment.js` - Advanced increment and decrement expressions
 
 ## Getting Started
 
@@ -205,4 +223,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 17, 2026
+**Last Updated:** May 18, 2026
