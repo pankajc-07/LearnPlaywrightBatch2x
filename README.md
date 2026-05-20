@@ -77,7 +77,35 @@ LearnPlaywrightBatch2x/
 │   ├── 44_Null_Op.js
 │   ├── 45_Post_Incriment.js
 │   ├── 46_IQ_Incriment_D.js
-│   └── 47_Advance_Incriment_Decriment.js
+│   ├── 47_Advance_Incriment_Decriment.js
+├── chapter_07_If_Else/
+│   ├── 48_If_Else.js
+│   ├── 49_If_elseif_else.js
+│   ├── 50_REAL_IF_ELSE.js
+│   ├── 51_API_If_Else.js
+│   ├── 52_IQ_IF_ELSE.js
+│   ├── 53_IF_ELSE_real.js
+│   ├── 54_IQ.js
+│   ├── 55_If.js
+│   ├── 56_IQ_Even_Odd.js
+│   ├── 57_Grade_Calc.js
+│   ├── 58_Leap_Year.js
+│   ├── Task_01.js
+│   └── Task_02.js
+├── chapter_08_Switch_Statement/
+│   ├── 59_Switch.js
+│   ├── 60_No_Break.js
+│   ├── 61_Default.js
+│   ├── 62_Real_Time_Example.js
+│   ├── 63_Switch_Group.js
+│   ├── 64_IQ.js
+│   ├── 65_IQ2.js
+│   ├── 66_IQ3.js
+│   └── 67_IQ4.js
+├── chapter_09_UserInput/
+│   ├── 68_User_Input.js
+│   ├── 69_Node_readline.js
+│   └── 70_Prompt_sync.js
 └── README.md
 ```
 
@@ -165,6 +193,46 @@ Understanding JavaScript operators including arithmetic, comparison, strict vs l
 - `46_IQ_Incriment_D.js` - Interview questions on increment/decrement
 - `47_Advance_Incriment_Decriment.js` - Advanced increment and decrement expressions
 
+### Chapter 7: If Else
+Mastering conditional statements with if, else if, and else blocks along with real-world examples and interview questions.
+
+**Files:**
+- `48_If_Else.js` - Introduction to if-else statements
+- `49_If_elseif_else.js` - If-else if-else ladder
+- `50_REAL_IF_ELSE.js` - Real-world if-else examples
+- `51_API_If_Else.js` - API-related if-else scenarios
+- `52_IQ_IF_ELSE.js` - Interview questions on if-else
+- `53_IF_ELSE_real.js` - More real-world if-else examples
+- `54_IQ.js` - Additional interview questions
+- `55_If.js` - Basic if statement examples
+- `56_IQ_Even_Odd.js` - Even/odd check interview question
+- `57_Grade_Calc.js` - Grade calculator example
+- `58_Leap_Year.js` - Leap year checker example
+- `Task_01.js` - Practice task 1
+- `Task_02.js` - Practice task 2
+
+### Chapter 8: Switch Statement
+Learning switch-case statements including grouping cases, default handling, and real-time examples.
+
+**Files:**
+- `59_Switch.js` - Introduction to switch statements
+- `60_No_Break.js` - Switch without break (fall-through behavior)
+- `61_Default.js` - Default case in switch
+- `62_Real_Time_Example.js` - Real-world switch examples
+- `63_Switch_Group.js` - Grouping multiple cases
+- `64_IQ.js` - Interview questions on switch
+- `65_IQ2.js` - More interview questions
+- `66_IQ3.js` - Additional switch interview questions
+- `67_IQ4.js` - Advanced switch interview questions
+
+### Chapter 9: User Input
+Handling user input in Node.js using readline and prompt-sync modules.
+
+**Files:**
+- `68_User_Input.js` - Introduction to user input handling
+- `69_Node_readline.js` - Using Node.js readline module
+- `70_Prompt_sync.js` - Using prompt-sync for synchronous input
+
 ## Getting Started
 
 ### Prerequisites
@@ -205,6 +273,9 @@ node chapter_01_Basics/01_Basics.js
 4. Explore Chapter 4 for advanced JavaScript concepts like hoisting and scope
 5. Study Chapter 5 to master literals, strings, and number types
 6. Dive into Chapter 6 to learn operators and avoid common == vs === pitfalls
+7. Practice Chapter 7 to master if-else conditional logic
+8. Learn Chapter 8 for switch-case statement patterns
+9. Explore Chapter 9 to handle user input in Node.js
 
 ## Tips for Success
 
@@ -223,4 +294,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 19, 2026
+**Last Updated:** May 20, 2026
