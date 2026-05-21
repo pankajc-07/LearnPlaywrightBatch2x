@@ -33,3 +33,20 @@ if (cost > 500) {
     console.log("Cost is low, cost: " + cost);
 }
 console.log("**********************************");
+
+console.log("Practice Example 04");
+let speed = 120;
+if (speed > 100) {
+    console.log("Speed is too high, speed: " + speed);
+} else {
+    console.log("Speed is normal, speed: " + speed);
+}
+console.log("**********************************");
+
+console.log("Practice Example 05");
+let signal = "Green";
+if (signal === "Green") {
+    console.log("Signal is " + signal + " you can go");
+} else {
+    console.log("Signal is not " + signal + " you can not go");
+}
