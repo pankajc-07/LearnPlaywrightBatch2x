@@ -106,6 +106,19 @@ LearnPlaywrightBatch2x/
 │   ├── 68_User_Input.js
 │   ├── 69_Node_readline.js
 │   └── 70_Prompt_sync.js
+├── chapter_10_Loops/
+│   ├── 71_For_loop.js
+│   ├── 72_For_loop.js
+│   ├── 73_For_Loop2.js
+│   ├── 74_IQ.js
+│   ├── 75_For_Of_In_Each.js
+│   ├── 76_While.js
+│   ├── 77_Do_While.js
+│   ├── 78_Do_While.js
+│   ├── 79_IQ.js
+│   ├── 80_IQ.js
+│   ├── 81_IQ.js
+│   └── 82_IQ.js
 └── README.md
 ```
 
@@ -233,6 +246,23 @@ Handling user input in Node.js using readline and prompt-sync modules.
 - `69_Node_readline.js` - Using Node.js readline module
 - `70_Prompt_sync.js` - Using prompt-sync for synchronous input
 
+### Chapter 10: Loops
+Mastering JavaScript loops including for, for...of, for...in, while, do...while, and related interview questions.
+
+**Files:**
+- `71_For_loop.js` - Introduction to for loops
+- `72_For_loop.js` - More for loop examples
+- `73_For_Loop2.js` - Advanced for loop concepts
+- `74_IQ.js` - Interview questions on loops
+- `75_For_Of_In_Each.js` - For...of, for...in, and forEach loops
+- `76_While.js` - Introduction to while loops
+- `77_Do_While.js` - Introduction to do...while loops
+- `78_Do_While.js` - More do...while examples
+- `79_IQ.js` - Loop interview questions
+- `80_IQ.js` - More loop interview questions
+- `81_IQ.js` - Additional loop interview questions
+- `82_IQ.js` - Advanced loop interview questions
+
 ## Getting Started
 
 ### Prerequisites
@@ -276,6 +306,7 @@ node chapter_01_Basics/01_Basics.js
 7. Practice Chapter 7 to master if-else conditional logic
 8. Learn Chapter 8 for switch-case statement patterns
 9. Explore Chapter 9 to handle user input in Node.js
+10. Study Chapter 10 to master loops and iteration patterns
 
 ## Tips for Success
 
@@ -294,4 +325,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 21, 2026
+**Last Updated:** May 22, 2026
