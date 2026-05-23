@@ -1,8 +1,8 @@
-let attempt = 0; // Init
+let attempt = 0; // Initilization
 while (attempt < 3) { // Condition
     console.log(attempt);
     attempt++; // Updation
-}
+} //console.log("Loop end here");
 console.log("***************************************");
 
 let modi = 1;

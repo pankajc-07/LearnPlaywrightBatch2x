@@ -118,7 +118,21 @@ LearnPlaywrightBatch2x/
 │   ├── 79_IQ.js
 │   ├── 80_IQ.js
 │   ├── 81_IQ.js
-│   └── 82_IQ.js
+│   ├── 82_IQ.js
+│   ├── Task_01.js
+│   └── Task_02.js
+├── Practice_JS/
+│   ├── Arrays/
+│   │   ├── 01_Arrays_Creations.js
+│   │   ├── 02_Arrays_Access_Modify.js
+│   │   ├── 03_Arrays_Add_Remove.js
+│   │   ├── 04_Array_Real_Use.js
+│   │   ├── 05_Arrays_Searching.js
+│   │   ├── 06_Arrays_Itarating.js
+│   │   ├── 07_Arrays_Transfroming_Arrays.js
+│   │   └── 08_Arrays_Sorting.js
+│   └── Functions/
+│       └── F1.js
 └── README.md
 ```
 
@@ -252,7 +266,7 @@ Mastering JavaScript loops including for, for...of, for...in, while, do...while,
 **Files:**
 - `71_For_loop.js` - Introduction to for loops
 - `72_For_loop.js` - More for loop examples
-- `73_For_Loop2.js` - Advanced for loop concepts
+- `73_For_Loop2.js` - Advanced for loop concepts with practice examples (odd/even, sum, multiplication table, star patterns)
 - `74_IQ.js` - Interview questions on loops
 - `75_For_Of_In_Each.js` - For...of, for...in, and forEach loops
 - `76_While.js` - Introduction to while loops
@@ -260,8 +274,28 @@ Mastering JavaScript loops including for, for...of, for...in, while, do...while,
 - `78_Do_While.js` - More do...while examples
 - `79_IQ.js` - Loop interview questions
 - `80_IQ.js` - More loop interview questions
-- `81_IQ.js` - Additional loop interview questions
+- `81_IQ.js` - Additional loop interview questions with continue keyword and practice examples
 - `82_IQ.js` - Advanced loop interview questions
+- `Task_01.js` - Triangle classification task
+- `Task_02.js` - FizzBuzz classic programming task
+
+### Practice JS: Arrays & Functions
+Hands-on practice modules for JavaScript arrays and functions.
+
+**Arrays Files:**
+- `01_Arrays_Creations.js` - Array creation methods
+- `02_Arrays_Access_Modify.js` - Accessing and modifying array elements
+- `03_Arrays_Add_Remove.js` - Adding and removing elements from arrays
+- `04_Array_Real_Use.js` - Real-world array use cases
+- `05_Arrays_Searching.js` - Array searching methods
+- `06_Arrays_Itarating.js` - Array iteration techniques
+- `07_Arrays_Transfroming_Arrays.js` - Array transformation methods
+- `08_Arrays_Sorting.js` - Array sorting techniques
+
+**Functions Files:**
+- `F1.js` - Function basics and examples
+- `Task_01.js` - Triangle classification task
+- `Task_02.js` - FizzBuzz classic programming task
 
 ## Getting Started
 
@@ -325,4 +359,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 22, 2026
+**Last Updated:** May 23, 2026
