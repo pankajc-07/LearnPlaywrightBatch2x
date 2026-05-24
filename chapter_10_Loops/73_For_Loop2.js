@@ -150,3 +150,40 @@ for (let row = 1; row <= totalRows; row++) {
 
     console.log(line);
 }
+console.log("***********************************");
+
+console.log("Example 09");
+
+let totalRows01 = 7;
+for (let row = 1; row <= totalRows01; row++) {
+    let line = "";
+    for (let space = 1; space <= totalRows01 - row; space++) {
+        line += " ";
+    }
+    for (let star = 1; star <= row; star++) {
+        line += "*"
+    }
+    console.log(line);
+}
+
+console.log("Example 10")
+let totalRow = 9;
+for (let row = 1; row <= totalRow; row++) {
+    let line = "";
+    for (let space = 1; space <= totalRow - row; space++) {
+        line += " ";
+    }
+    for (let star = 1; star <= row; star++) {
+        line += "*";
+    }
+    console.log(line)
+
+
+}
+
+
+
+
+
+
+

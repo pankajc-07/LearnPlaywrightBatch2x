@@ -266,12 +266,12 @@ Mastering JavaScript loops including for, for...of, for...in, while, do...while,
 **Files:**
 - `71_For_loop.js` - Introduction to for loops
 - `72_For_loop.js` - More for loop examples
-- `73_For_Loop2.js` - Advanced for loop concepts with practice examples (odd/even, sum, multiplication table, star patterns)
+- `73_For_Loop2.js` - Advanced for loop concepts with practice examples (odd/even, sum, multiplication table, star patterns, right-aligned triangles)
 - `74_IQ.js` - Interview questions on loops
 - `75_For_Of_In_Each.js` - For...of, for...in, and forEach loops
-- `76_While.js` - Introduction to while loops
+- `76_While.js` - Introduction to while loops with practice examples (countdown, sum, factorial)
 - `77_Do_While.js` - Introduction to do...while loops
-- `78_Do_While.js` - More do...while examples
+- `78_Do_While.js` - More do...while examples with real-world scenarios (fuel check, number growth, timer, PIN authentication)
 - `79_IQ.js` - Loop interview questions
 - `80_IQ.js` - More loop interview questions
 - `81_IQ.js` - Additional loop interview questions with continue keyword and practice examples
@@ -359,4 +359,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 23, 2026
+**Last Updated:** May 24, 2026

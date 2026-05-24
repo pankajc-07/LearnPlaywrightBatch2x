@@ -82,3 +82,33 @@ while (speed01 <= 10) {
     }
     speed01++
 }
+console.log("***************************************");
+
+console.log("Example 08");
+let count = 5;
+while (count > 0) {
+    console.log(count);
+    count--;
+} console.log("Loop ends here");
+console.log("***************************************");
+
+console.log("Example 09");
+let num09 = 5;
+let total09 = 0;
+while (num09 > 0) {
+    total09 = total09 + num09;
+    num09--;
+} console.log(total09);
+console.log("***************************************");
+
+console.log("Example 10");
+let num10 = 1;
+let mul10 = 1;
+while (num10 <= 5) {
+    console.log(mul10 = mul10 * num10);
+    num10++;
+} console.log("Final value is = " + mul10)
+
+
+
+
