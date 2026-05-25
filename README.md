@@ -121,6 +121,16 @@ LearnPlaywrightBatch2x/
 │   ├── 82_IQ.js
 │   ├── Task_01.js
 │   └── Task_02.js
+├── chapter_11_Arrays/
+│   ├── 83_Arrays.js
+│   ├── 84_Arrays.js
+│   ├── 85_Access_Array.js
+│   ├── 86_Arrays_Adding_Remove.js
+│   ├── 87_Adding_Remove2.js
+│   ├── 88_REAL_Example.js
+│   ├── 89_Searching.js
+│   ├── 90_Iterate.js
+│   └── 91_Transform_Array.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -279,6 +289,20 @@ Mastering JavaScript loops including for, for...of, for...in, while, do...while,
 - `Task_01.js` - Triangle classification task
 - `Task_02.js` - FizzBuzz classic programming task
 
+### Chapter 11: Arrays
+Comprehensive coverage of JavaScript arrays including creation, access, modification, searching, iteration, and transformation methods.
+
+**Files:**
+- `83_Arrays.js` - Introduction to arrays and array creation
+- `84_Arrays.js` - Array basics and methods overview
+- `85_Access_Array.js` - Accessing and modifying array elements
+- `86_Arrays_Adding_Remove.js` - Adding and removing elements from arrays
+- `87_Adding_Remove2.js` - More array manipulation methods
+- `88_REAL_Example.js` - Real-world array use cases
+- `89_Searching.js` - Array searching methods (indexOf, includes, find, findIndex)
+- `90_Iterate.js` - Array iteration techniques (forEach, map, filter, reduce)
+- `91_Transform_Array.js` - Array transformation methods (map, filter, reduce, sort, flat)
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -341,6 +365,7 @@ node chapter_01_Basics/01_Basics.js
 8. Learn Chapter 8 for switch-case statement patterns
 9. Explore Chapter 9 to handle user input in Node.js
 10. Study Chapter 10 to master loops and iteration patterns
+11. Master Chapter 11 to work with arrays effectively
 
 ## Tips for Success
 
@@ -359,4 +384,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 24, 2026
+**Last Updated:** May 25, 2026
