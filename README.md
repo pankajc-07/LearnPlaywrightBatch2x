@@ -130,7 +130,8 @@ LearnPlaywrightBatch2x/
 │   ├── 88_REAL_Example.js
 │   ├── 89_Searching.js
 │   ├── 90_Iterate.js
-│   └── 91_Transform_Array.js
+│   ├── 91_Transform_Array.js
+│   └── ArraysNotes.md
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -302,6 +303,7 @@ Comprehensive coverage of JavaScript arrays including creation, access, modifica
 - `89_Searching.js` - Array searching methods (indexOf, includes, find, findIndex)
 - `90_Iterate.js` - Array iteration techniques (forEach, map, filter, reduce)
 - `91_Transform_Array.js` - Array transformation methods (map, filter, reduce, sort, flat)
+- `ArraysNotes.md` - Detailed notes on array methods with Playwright automation use cases and examples
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
@@ -384,4 +386,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 25, 2026
+**Last Updated:** May 26, 2026
