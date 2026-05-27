@@ -131,7 +131,20 @@ LearnPlaywrightBatch2x/
 │   ├── 89_Searching.js
 │   ├── 90_Iterate.js
 │   ├── 91_Transform_Array.js
+│   ├── 92_Arrays.js
+│   ├── 93_Array_Slicing.js
+│   ├── 94_Concat_array.js
+│   ├── 95_Array_Checking.js
 │   └── ArraysNotes.md
+├── chapter_12_Funtions/
+│   ├── 96_Functions.js
+│   ├── 97_Type1_Fn_Basic_Functions.js
+│   ├── 98_Type2_Fn_With_Param_No_Return.js
+│   ├── 99_Type3_Fn_without_Param_Return_Type.js
+│   ├── 100_Type4_Fn_With_Param_With_Return.js
+│   ├── 101_Template_literal.js
+│   ├── 102_Fn_Expression.js
+│   └── 103_Arrow_Fn.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -303,7 +316,24 @@ Comprehensive coverage of JavaScript arrays including creation, access, modifica
 - `89_Searching.js` - Array searching methods (indexOf, includes, find, findIndex)
 - `90_Iterate.js` - Array iteration techniques (forEach, map, filter, reduce)
 - `91_Transform_Array.js` - Array transformation methods (map, filter, reduce, sort, flat)
+- `92_Arrays.js` - Array sorting methods (natural sorting, lexicographic sorting, ascending/descending)
+- `93_Array_Slicing.js` - Array slicing and combining methods (slice, negative indexing)
+- `94_Concat_array.js` - Array concatenation and join methods (concat, spread operator, join)
+- `95_Array_Checking.js` - Array checking methods (isArray, every, some)
 - `ArraysNotes.md` - Detailed notes on array methods with Playwright automation use cases and examples
+
+### Chapter 12: Functions
+Comprehensive coverage of JavaScript functions including basic functions, parameters, return types, template literals, function expressions, and arrow functions.
+
+**Files:**
+- `96_Functions.js` - Introduction to functions (declaration and calling)
+- `97_Type1_Fn_Basic_Functions.js` - Basic functions without parameters or return
+- `98_Type2_Fn_With_Param_No_Return.js` - Functions with parameters but no return
+- `99_Type3_Fn_without_Param_Return_Type.js` - Functions without parameters but with return values
+- `100_Type4_Fn_With_Param_With_Return.js` - Functions with both parameters and return values
+- `101_Template_literal.js` - Template literals in function contexts
+- `102_Fn_Expression.js` - Function expressions
+- `103_Arrow_Fn.js` - Arrow functions and syntax
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
@@ -368,6 +398,7 @@ node chapter_01_Basics/01_Basics.js
 9. Explore Chapter 9 to handle user input in Node.js
 10. Study Chapter 10 to master loops and iteration patterns
 11. Master Chapter 11 to work with arrays effectively
+12. Study Chapter 12 to understand functions, parameters, return types, and arrow functions
 
 ## Tips for Success
 
@@ -386,4 +417,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 26, 2026
+**Last Updated:** May 27, 2026
