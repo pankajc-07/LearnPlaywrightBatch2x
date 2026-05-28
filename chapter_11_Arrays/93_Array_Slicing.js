@@ -74,3 +74,64 @@ console.log("**********************************************");
 console.log("Example 09");
 let str04 = ["PP", "QQ", "RR", "SS"];
 console.log(str04.slice(-3));
+console.log("**********************************************");
+
+console.log("Example 10");
+/*
+Scenario: You extract an array of 50 product names scraped from a search results page.
+However, the UI only displays 10 items per page.
+
+Your Task: Use .slice() to extract just the first 10 items from your master dataset
+so you can write an assertion against the first page of the UI.
+*/
+let totalProducts = Array.from({ length: 50 }, (_, i) => `Product ${i + 1}`);
+// Creates ["Product 1", "Product 2", ..., "Product 50"]
+console.log(totalProducts);
+console.log(totalProducts.slice(0, 10));
+console.log("**********************************************");
+
+console.log("Example 11");
+/*
+Scenario: You scrape all rows from a web table into an array of strings.
+The array looks like this:
+["Header: ID/Name", "Row 1: Alice", "Row 2: Bob",
+"Row 3: Charlie", "Footer: Page 1 of 1"]
+
+Your Task: Use .slice() to extract only the actual data rows (Row 1 through Row 3),
+ignoring the first element (header) and the last element (footer),
+regardless of how many data rows exist.
+*/
+
+let array11 = ["Header: ID/Name", "Row 1: Alice", "Row 2: Bob",
+    "Row 3: Charlie", "Footer: Page 1 of 1"];
+console.log(array11.slice(1, -1));
+console.log("**********************************************");
+
+console.log("Example 12");
+/*
+Scenario: An automation test requires you to verify a "Top 3 Trending Products"
+sidebar widget.
+You extract the full list of trending items from an API backend array containing 10 items.
+
+Your Task: Extract the last 3 items from the backend array,
+assuming the backend stores the highest-trending items at the very end of the array.
+*/
+let array12 = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10"];
+console.log(array12.slice(-3));
+console.log("**********************************************");
+
+console.log("Example 13");
+/*
+Scenario: You have a master list of 6 user profiles that need to be updated in a test
+setup. To optimize your script, you want to split this master list into two equal halves
+(chunks) so you can process them across two different browser contexts.
+
+Your Task: Use .slice() dynamically to split this array exactly down the middle
+into firstHalf and secondHalf.
+*/
+
+let array13 = ["User_A", "User_B", "User_C", "User_D", "User_E", "User_F"];
+let midPoint = array13.length / 2;
+
+console.log(array13.slice(0, midPoint));
+console.log(array13.slice(midPoint));
