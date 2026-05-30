@@ -38,6 +38,7 @@ function buildMenuSelector(menuItemName) {
 const dashboardSelector = buildMenuSelector("Dashboard");
 const settingsSelector = buildMenuSelector("Settings");
 console.log(dashboardSelector);
+console.log(settingsSelector);
 console.log("**************************************");
 
 console.log("Example 03");

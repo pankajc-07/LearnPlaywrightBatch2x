@@ -108,6 +108,39 @@ while (num10 <= 5) {
     console.log(mul10 = mul10 * num10);
     num10++;
 } console.log("Final value is = " + mul10)
+console.log("***************************************");
+
+console.log("Example 11");
+let num11 = 0;
+while (num11 <= 3) {
+    console.log("Number is = " + num11);
+    num11++;
+}
+console.log("***************************************");
+
+console.log("Example 12");
+let num12 = 1;
+let sum12 = 0;
+while (num12 <= 7) {
+    sum12 = sum12 + num12;
+    console.log("Sum = " + sum12);
+    num12++;
+}
+console.log("Final sum = " + sum12);
+console.log("***************************************");
+
+console.log("Example 13");
+let num13 = 1;
+while (num13 <= 15) {
+    if (num13 % 2 === 0) {
+        console.log("Even Number and number is : " + num13);
+    } else {
+        // console.log("Odd Number and number is : " + num13);
+    }
+    num13++;
+}
+
+
 
 
 

@@ -155,5 +155,21 @@ switch (user) {
     default:
         console.log("This is " + user + " user is not valid")
 }
+console.log("****************************************************");
 
+console.log("Practice Example 06");
+let drink = "coke";
 
+switch (drink) {
+    case "coke":
+        console.log("Selected coke");
+        break;
+    case "thumpsup":
+        console.log("selected thumpsup");
+        break;
+    case "pepsi":
+        console.log("selected pepsi");
+        break;
+    default:
+        console.log("nothing is selcted");
+}

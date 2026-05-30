@@ -165,6 +165,7 @@ for (let row = 1; row <= totalRows01; row++) {
     }
     console.log(line);
 }
+console.log("***********************************");
 
 console.log("Example 10")
 let totalRow = 9;
@@ -177,13 +178,52 @@ for (let row = 1; row <= totalRow; row++) {
         line += "*";
     }
     console.log(line)
-
-
 }
+console.log("***********************************");
 
+console.log("Example 11")
+for (let row = 1; row <= 7; row++) {
+    let line = "";
+    for (let col = 1; col <= row; col++) {
+        line += "*";
+    }
+    console.log(line);
+}
+console.log("***********************************");
 
+console.log("Example 12")
+for (let row = 5; row >= 1; row--) {
+    let line = "";
+    for (let col = 1; col <= row; col++) {
+        line += "*";
+    }
+    console.log(line);
+}
+console.log("***********************************");
 
+console.log("Example 13")
+let totalRows13 = 5;
+for (let row = 1; row <= totalRows13; row++) {
+    let line = "";
+    for (let space = 1; space <= totalRows13 - row; space++) {
+        line += " ";
+    }
+    for (let star = 1; star <= row; star++) {
+        line += "*";
+    }
+    console.log(line);
+}
+console.log("***********************************");
 
-
-
-
+console.log("Example 14")
+let totalRows14 = 7;
+for (let row = totalRows14; row >= 1; row--) {
+    let line = "";
+    for (let space = 1; space <= totalRows14 - row; space++) {
+        line += " ";
+    }
+    for (let star = 1; star <= row; star++) {
+        line += "*";
+    }
+    console.log(line);
+}

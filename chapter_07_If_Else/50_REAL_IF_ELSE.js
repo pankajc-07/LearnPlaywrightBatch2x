@@ -8,7 +8,7 @@
 
 // app.vwo.com -> viewer, editor or admin -> 
 
-let isLoggedIn = false;
+let isLoggedIn = true;
 let role = "admin";
 
 if (isLoggedIn) {

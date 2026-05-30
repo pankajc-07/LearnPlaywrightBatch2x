@@ -91,8 +91,23 @@ do {
 } while (enteredPIN !== correctPIN);
 
 console.log("Access granted after " + attempts + " attempts!");
+console.log("***************************************");
 
+console.log("Example 08");
+let num08 = 3;
+do {
+    console.log("The number is = " + num08);
+    num08++
+} while (num08 < 1);
+console.log("***************************************");
 
-
-
+console.log("Example 09");
+let num09 = 1;
+let sum09 = 0;
+do {
+    sum09 = sum09 + num09;
+    console.log("Sum is = " + sum09);
+    num09++;
+} while (num09 <= 7);
+console.log("Finaal value of sum is = " + sum09);
 

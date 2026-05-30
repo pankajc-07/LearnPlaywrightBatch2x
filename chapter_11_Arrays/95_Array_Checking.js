@@ -16,6 +16,9 @@ console.log("*****************************************");
 console.log([200, 201, 203].every(statuscode => statuscode > 200));
 console.log("*****************************************");
 
+console.log([200, 201, 203, 304].every(statuscode => (statuscode > 200) || (statuscode < 300)));
+console.log("*****************************************");
+
 // some — AT LEAST ONE must pass
 console.log([80, 60, 85].some(s => s < 70)); // true
 console.log([80, 90, 85].some(s => s < 70)); // false

@@ -31,7 +31,7 @@ console.log("*********************************************");
 // Practice Examples
 console.log("Example 01"); // without default keyword
 
-let temp = 40;
+let temp = 45;
 
 switch (temp) {
 
@@ -46,7 +46,7 @@ switch (temp) {
 console.log("*********************************************");
 
 console.log("Example 02");
-let month = 13; // without default keyword
+let month = 1; // without default keyword
 
 switch (month) {
     case 1:

@@ -52,6 +52,8 @@ array02[2] = "cherry";
 array02[3] = "mango";
 array02[4] = "watermellon";
 array02[5] = "grapes";
+array02[6] = "aneer";
+array02[7] = "pineapple";
 console.log(array02);
 console.log("*************************************");
 

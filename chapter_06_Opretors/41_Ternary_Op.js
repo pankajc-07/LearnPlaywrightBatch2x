@@ -190,3 +190,12 @@ let max = x1 > y1
     : (y1 > z1 ? "y1 is greater" : "z1 is greater");
 console.log("Maximum value is: ", max);
 console.log("**************************************");
+
+console.log("Prctice Examples 06");
+let time05 = 11;
+let result05 = time05 < 3 ? "Very short " :
+    time05 < 5 ? "Short" :
+        time05 < 7 ? "Long" :
+            time05 < 10 ? "VeryLong" : "Toooooo Long";
+
+console.log(result05);

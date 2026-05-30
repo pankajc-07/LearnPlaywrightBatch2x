@@ -104,8 +104,8 @@ array05.unshift("PROMO_99");
 array05.push("CLEAR_01");
 console.log(array05);
 
-let remove02 = array05.shift();
-console.log(remove02);
+let itemUnderTest = array05.shift();
+console.log(itemUnderTest);
 
 console.log(array05);
 console.log("****************************************");
@@ -127,3 +127,58 @@ let replace01 = array06.splice(0, 1, "uat");
 console.log(replace01);
 
 console.log(array06);
+console.log("****************************************");
+
+console.log("Example 07");
+/*
+Scenario 1: Financial Transaction Ledger
+The Setup: You are testing a banking application's transaction ledger.
+Whenever a user transfers money, makes a deposit, or pays a bill,
+the transaction is appended to a ledger array.
+To automate the verification of a successful transfer,
+you need to check the very last transaction processed.
+
+Your Task: Write a script that takes an array of transaction strings,
+dynamically grabs the last item without hardcoding the index number,
+and asserts that it matches "Transfer outbound: -$50.00".
+*/
+const ledgerTransactions = [
+    "Deposit inbound: +$100.00",
+    "Atm Withdrawal: -$20.00",
+    "Merchant Purchase: -$15.50",
+    "Transfer outbound: -$50.00"
+];
+const finalTransaction = ledgerTransactions.at(-1);
+if (finalTransaction === "Transfer outbound: -$50.00") {
+    console.log("Assertion PASSED: The last transaction matches the expected outbound transfer.");
+} else {
+    console.error(`Assertion FAILED: Expected 'Transfer outbound: -$50.00', but found '${finalTransaction}'`);
+}
+console.log("****************************************");
+
+console.log("Example 08");
+/*
+Scenario 2: CI/CD Build Deployment Logs
+The Setup: You are writing a DevOps test script that monitors a software deployment pipeline.
+As the build progresses, status updates are pushed into a deploymentSteps array.
+To verify that the deployment successfully finished, your script must inspect
+the final step executed by the pipeline.
+
+Your Task: Write a script that takes an array of deployment step strings,
+dynamically grabs the last item without hardcoding the index number,
+and asserts that it matches "Deployment successful".
+*/
+const deploymentSteps = [
+    "Initializing build environment",
+    "Running unit tests",
+    "Compiling assets",
+    "Uploading to production server",
+    "Deployment successful"
+];
+
+const finalInedx = deploymentSteps.at(-1);
+if (finalInedx === "Deployment successful") {
+    console.log("PASS : CI/CD Build is completed");
+} else {
+    console.log("FAIL : CI/CD Build is completed");
+}
