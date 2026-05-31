@@ -156,7 +156,11 @@ LearnPlaywrightBatch2x/
 │   │   ├── 07_Arrays_Transfroming_Arrays.js
 │   │   └── 08_Arrays_Sorting.js
 │   └── Functions/
-│       └── F1.js
+│       ├── F1.js
+│       ├── F2.js
+│       ├── Function03_IIFE.js
+│       ├── F4_Default_Parameter.js
+│       └── F5_Rest_Parameters.js
 └── README.md
 ```
 
@@ -350,6 +354,10 @@ Hands-on practice modules for JavaScript arrays and functions.
 
 **Functions Files:**
 - `F1.js` - Function basics and examples
+- `F2.js` - Function declarations, expressions, arrow functions, and HTTP status code validation
+- `Function03_IIFE.js` - Immediately Invoked Function Expressions (IIFE)
+- `F4_Default_Parameter.js` - Functions with default parameters
+- `F5_Rest_Parameters.js` - Rest parameters, spread operator, and hoisting behavior
 - `Task_01.js` - Triangle classification task
 - `Task_02.js` - FizzBuzz classic programming task
 
@@ -417,4 +425,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 30, 2026
+**Last Updated:** May 31, 2026
