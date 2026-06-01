@@ -1,9 +1,11 @@
-// Immediately Invoked Functions Expression (IIFE)
 function name() {
     console.log("Hi");
 };
 name();
 console.log("************************************");
+
+// Immediately Invoked Functions Expression (IIFE)
+// Most of IIFE does not have name
 
 (function () {
     console.log("Hi");

@@ -144,7 +144,21 @@ LearnPlaywrightBatch2x/
 │   ├── 100_Type4_Fn_With_Param_With_Return.js
 │   ├── 101_Template_literal.js
 │   ├── 102_Fn_Expression.js
-│   └── 103_Arrow_Fn.js
+│   ├── 103_Arrow_Fn.js
+│   ├── 104_Arrow_Fn_REAL.js
+│   ├── 105_IIFE.js
+│   ├── 106_Default_Param_Fn.js
+│   ├── 107_IQ.js
+│   ├── 108_Rest_Param_Fn.js
+│   ├── 109_IQ.js
+│   ├── 110_Spead_IQ.js
+│   ├── 111_Scope.js
+│   ├── 112_IQ.js
+│   ├── 113_Closure.js
+│   ├── 114_Closure.js
+│   ├── 115_API_REAL_Closure.js
+│   ├── 116_Higher_Order_Fn.js
+│   └── 117_Pure_Fn.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -338,6 +352,20 @@ Comprehensive coverage of JavaScript functions including basic functions, parame
 - `101_Template_literal.js` - Template literals in function contexts
 - `102_Fn_Expression.js` - Function expressions
 - `103_Arrow_Fn.js` - Arrow functions and syntax
+- `104_Arrow_Fn_REAL.js` - Real-world arrow function examples
+- `105_IIFE.js` - Immediately Invoked Function Expressions (IIFE)
+- `106_Default_Param_Fn.js` - Functions with default parameters
+- `107_IQ.js` - Interview questions on default parameters
+- `108_Rest_Param_Fn.js` - Rest parameters in functions
+- `109_IQ.js` - Interview questions on rest parameters
+- `110_Spead_IQ.js` - Spread operator interview questions
+- `111_Scope.js` - Function scope and block scope deep dive
+- `112_IQ.js` - Scope-related interview questions
+- `113_Closure.js` - Introduction to closures
+- `114_Closure.js` - Advanced closure concepts
+- `115_API_REAL_Closure.js` - Real-world API and closure examples
+- `116_Higher_Order_Fn.js` - Higher-order functions and callbacks
+- `117_Pure_Fn.js` - Pure functions and side effects
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
@@ -425,4 +453,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** May 31, 2026
+**Last Updated:** June 01, 2026
