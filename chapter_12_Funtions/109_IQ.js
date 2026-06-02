@@ -18,7 +18,7 @@ function logTest(name) {
     // no return statement
 }
 let result = logTest("Login");
-console.log(result);
+console.log(result);// Without return we can not assign, it will give as undefined
 console.log("*****************************************");
 /*
 JavaScript hoists function declarations, allowing greet("Alice") to run before its definition

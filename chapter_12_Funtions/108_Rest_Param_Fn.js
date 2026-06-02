@@ -1,4 +1,5 @@
 // Rest of the param.
+// Spead parameter
 function logResult(suiteName, ...results) {
     console.log(suiteName);
     console.log(results);

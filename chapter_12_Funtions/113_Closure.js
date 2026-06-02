@@ -1,3 +1,4 @@
+// Closures are old concepts of js, this is not going to use in playwright
 function outer() {
     let message = "hello";
     console.log("Outer CALLED!");
