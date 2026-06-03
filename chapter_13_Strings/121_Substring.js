@@ -12,4 +12,4 @@ console.log(str.includes("Pass"));
 // substring(start, end) — no negatives (treats as 0)
 
 console.log(str.substring(6, 10));
-str.at(0);
+console.log(str.at(0));

@@ -165,7 +165,8 @@ LearnPlaywrightBatch2x/
 │   ├── 120_Search_Check_Str.js
 │   ├── 121_Substring.js
 │   ├── 122_Transform_Str.js
-│   └── 123_SC.js
+│   ├── 123_SC.js
+│   └── Task_030620206.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -384,6 +385,7 @@ Exploring JavaScript strings including properties, searching, checking, substrin
 - `121_Substring.js` - Substring extraction methods
 - `122_Transform_Str.js` - String transformation techniques
 - `123_SC.js` - String case conversion and additional methods
+- `Task_030620206.js` - String manipulation practice task
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
