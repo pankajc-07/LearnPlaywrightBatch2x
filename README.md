@@ -151,7 +151,7 @@ LearnPlaywrightBatch2x/
 │   ├── 107_IQ.js
 │   ├── 108_Rest_Param_Fn.js
 │   ├── 109_IQ.js
-│   ├── 110_Spead_IQ.js
+│   ├── 110_Spread_IQ.js
 │   ├── 111_Scope.js
 │   ├── 112_IQ.js
 │   ├── 113_Closure.js
@@ -159,6 +159,13 @@ LearnPlaywrightBatch2x/
 │   ├── 115_API_REAL_Closure.js
 │   ├── 116_Higher_Order_Fn.js
 │   └── 117_Pure_Fn.js
+├── chapter_13_Strings/
+│   ├── 118_Strings.js
+│   ├── 119_String_Properties.js
+│   ├── 120_Search_Check_Str.js
+│   ├── 121_Substring.js
+│   ├── 122_Transform_Str.js
+│   └── 123_SC.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -358,7 +365,7 @@ Comprehensive coverage of JavaScript functions including basic functions, parame
 - `107_IQ.js` - Interview questions on default parameters
 - `108_Rest_Param_Fn.js` - Rest parameters in functions
 - `109_IQ.js` - Interview questions on rest parameters
-- `110_Spead_IQ.js` - Spread operator interview questions
+- `110_Spread_IQ.js` - Spread operator interview questions
 - `111_Scope.js` - Function scope and block scope deep dive
 - `112_IQ.js` - Scope-related interview questions
 - `113_Closure.js` - Introduction to closures
@@ -366,6 +373,17 @@ Comprehensive coverage of JavaScript functions including basic functions, parame
 - `115_API_REAL_Closure.js` - Real-world API and closure examples
 - `116_Higher_Order_Fn.js` - Higher-order functions and callbacks
 - `117_Pure_Fn.js` - Pure functions and side effects
+
+### Chapter 13: Strings
+Exploring JavaScript strings including properties, searching, checking, substrings, transformations, and case conversion.
+
+**Files:**
+- `118_Strings.js` - Introduction to JavaScript strings
+- `119_String_Properties.js` - String properties and length
+- `120_Search_Check_Str.js` - String searching and checking methods
+- `121_Substring.js` - Substring extraction methods
+- `122_Transform_Str.js` - String transformation techniques
+- `123_SC.js` - String case conversion and additional methods
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
@@ -435,6 +453,7 @@ node chapter_01_Basics/01_Basics.js
 10. Study Chapter 10 to master loops and iteration patterns
 11. Master Chapter 11 to work with arrays effectively
 12. Study Chapter 12 to understand functions, parameters, return types, and arrow functions
+13. Explore Chapter 13 to master JavaScript strings, searching, and transformations
 
 ## Tips for Success
 
@@ -453,4 +472,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 01, 2026
+**Last Updated:** June 03, 2026

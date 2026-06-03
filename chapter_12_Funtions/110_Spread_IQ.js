@@ -104,4 +104,3 @@ const uniqueOptions = [...new Set([...currentUIOptions, ...archivedOptions])];
 
 console.log(uniqueOptions);
 // Output: ['Home', 'Dashboard', 'Settings', 'Old Profile', 'Legacy Reports']
-
