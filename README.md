@@ -380,9 +380,9 @@ Exploring JavaScript strings including properties, searching, checking, substrin
 
 **Files:**
 - `118_Strings.js` - Introduction to JavaScript strings
-- `119_String_Properties.js` - String properties and length
-- `120_Search_Check_Str.js` - String searching and checking methods
-- `121_Substring.js` - Substring extraction methods
+- `119_String_Properties.js` - String properties and length with real-world Playwright examples (order ID extraction, text cleanup, URL assertion, masking validation, dynamic locator building)
+- `120_Search_Check_Str.js` - String searching and checking methods with Playwright testing scenarios (environment checker, error log scanner, breadcrumb validator, case-insensitive matcher, token expiry checker)
+- `121_Substring.js` - Substring extraction methods with Playwright use cases (activation code extraction, URL slug parser, date range splitter, price parser, text preview truncation)
 - `122_Transform_Str.js` - String transformation techniques
 - `123_SC.js` - String case conversion and additional methods
 - `Task_030620206.js` - String manipulation practice task
@@ -474,4 +474,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 03, 2026
+**Last Updated:** June 04, 2026
