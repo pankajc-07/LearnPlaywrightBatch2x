@@ -167,6 +167,21 @@ LearnPlaywrightBatch2x/
 │   ├── 122_Transform_Str.js
 │   ├── 123_SC.js
 │   └── Task_030620206.js
+├── chapter_14_Objects/
+│   ├── 124_Objects.js
+│   ├── 125_Objects2.js
+│   ├── 126_Objects_Creation.js
+│   ├── 127_Objects_REAL.js
+│   ├── 128_Primitive_Ref.js
+│   ├── 129_Ob_Examples.js
+│   ├── 130_IQ.js
+│   ├── 131_Object_Fn.js
+│   ├── 132_Obj_Decon.js
+│   ├── 133_Spead.js
+│   ├── 134_Objects_GET_SET_Methods.js
+│   ├── 135_IQ.js
+│   ├── 136_Obj_REAL.js
+│   └── 137_Let_const_obj.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -387,6 +402,25 @@ Exploring JavaScript strings including properties, searching, checking, substrin
 - `123_SC.js` - String case conversion and additional methods
 - `Task_030620206.js` - String manipulation practice task
 
+### Chapter 14: Objects
+Deep dive into JavaScript objects including creation, primitive vs reference types, object methods, destructuring, spread operator, getters/setters, and real-world examples.
+
+**Files:**
+- `124_Objects.js` - Introduction to JavaScript objects
+- `125_Objects2.js` - Object properties and dot vs bracket notation
+- `126_Objects_Creation.js` - Object creation patterns and methods
+- `127_Objects_REAL.js` - Real-world object use cases
+- `128_Primitive_Ref.js` - Primitive vs reference types
+- `129_Ob_Examples.js` - Object examples and exercises
+- `130_IQ.js` - Interview questions on objects
+- `131_Object_Fn.js` - Object methods and functions
+- `132_Obj_Decon.js` - Object destructuring
+- `133_Spead.js` - Spread operator with objects
+- `134_Objects_GET_SET_Methods.js` - Getter and setter methods
+- `135_IQ.js` - More interview questions on objects
+- `136_Obj_REAL.js` - Real-world object examples
+- `137_Let_const_obj.js` - Let vs const with objects
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -456,6 +490,11 @@ node chapter_01_Basics/01_Basics.js
 11. Master Chapter 11 to work with arrays effectively
 12. Study Chapter 12 to understand functions, parameters, return types, and arrow functions
 13. Explore Chapter 13 to master JavaScript strings, searching, and transformations
+14. Study Chapter 14 to understand objects, object methods, destructuring, and primitive vs reference types
+
+## Interview Notes
+
+- `interview.md` - Curated JavaScript interview questions and answers from this curriculum, including topics like objects, const vs let for object references, and common gotchas.
 
 ## Tips for Success
 
@@ -463,6 +502,7 @@ node chapter_01_Basics/01_Basics.js
 - Try to modify the code and experiment with different values
 - Use the keyboard shortcuts to speed up your development workflow
 - Follow the naming conventions when writing your own code
+- Review `interview.md` for common interview questions and explanations
 
 ## Contributing
 
@@ -474,4 +514,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 04, 2026
+**Last Updated:** June 05, 2026
