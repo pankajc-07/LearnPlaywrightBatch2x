@@ -494,7 +494,7 @@ node chapter_01_Basics/01_Basics.js
 
 ## Interview Notes
 
-- `interview.md` - Curated JavaScript interview questions and answers from this curriculum, including topics like objects, const vs let for object references, and common gotchas.
+- `interview.md` - Curated JavaScript interview questions and answers from this curriculum. Recently enhanced with formatted code blocks, tables, and detailed explanations for topics like objects, `const` vs `let` for object references, and common gotchas.
 
 ## Tips for Success
 
