@@ -66,5 +66,55 @@ if (config4.time === 700) {
 } else {
     console.log("Time is diffrent");
 }
+console.log("*******************************************************");
 
+// Practice Examples
+console.log("Example 01")
+
+let config05 = {};
+config05.testname = 'automation';
+config05.browser = "chrome";
+config05.API = "NA";
+config05.tool = "playwright";
+config05.responseTime = 60000;
+config05.suiteTime = 100000;
+
+console.log(config05);
+
+delete config05.API;
+
+console.log(config05);
+
+config05.responseTime = 5000;
+console.log(config05);
+
+//Following is allowed
+// if (config05.responseTime <= 4000) {
+//     //console.log("Response time is within the range and value = " + config05.responseTime);
+//     console.log(`Response time : ${config05.responseTime} is within the given time limit`);
+// } else {
+//     //console.log("Response time is out of the range and value = " + config05.responseTime);
+//     console.log(`Response time : ${config05.responseTime} is out of the given time limit`);
+// }
+
+//This is also allowed
+const maxAllowedTime = 4000;
+if (config05.responseTime <= maxAllowedTime) {
+    //console.log("Response time is within the range and value = " + config05.responseTime);
+    console.log(`Response time : ${config05.responseTime} is within the given time limit and the limit is : ${maxAllowedTime}`);
+} else {
+    //console.log("Response time is out of the range and value = " + config05.responseTime);
+    console.log(`Response time : ${config05.responseTime} is out of the given time limit and the limit is : ${maxAllowedTime}`);
+}
+
+config05.API = 'True';
+config05.apiResponse = 200;
+console.log(config05);
+
+if (config05.apiResponse <= 299) {
+    console.log(`API response is sucessfull with ${config05.apiResponse} response code`);
+} else {
+    console.log(`API response is fail with ${config05.apiResponse} response code`);
+
+}
 

@@ -27,12 +27,17 @@ b.status = "fail";
 console.log(a.status);
 console.log(b.status);
 
+if (b === a) {
+    console.log("true");
+} else {
+    console.log("false");
+}
+
 let c = { status: "pass" };
 let d = { status: "pass" };
 console.log(c);
 console.log(d);
-
-if (b === a) {
+if (c === d) {
     console.log("true");
 } else {
     console.log("false");
@@ -60,5 +65,41 @@ if (a01 === b01) {
 } else {
     console.log("Fail the test");
 }
+console.log("*******************************************************");
 
+console.log("Example 02")
+let a02 = { result: "PASS" }
+let b02 = { result: "PASS" }
 
+console.log(a02);
+console.log(b02);
+
+if (a02 === b02) {
+    console.log("Ture");
+} else {
+    console.log("False");
+}
+
+let c02 = a02;
+
+console.log(a02);
+console.log(c02);
+
+if (c02 === a02) {
+    console.log("Ture");
+} else {
+    console.log("False");
+}
+
+c02.result = "sanity";
+console.log(c02);
+console.log(a02);
+
+console.log(c02.result);
+console.log(a02.result);
+
+if (c02 === a02) {
+    console.log("Ture");
+} else {
+    console.log("False");
+}

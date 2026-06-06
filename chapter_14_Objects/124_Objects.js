@@ -35,3 +35,16 @@ const obj03 = { state: 'Maharashtra', city: "ABCD", code: 1234, area: "pqrs", nu
 console.log(obj03);
 console.log("*******************************************************");
 
+console.log("Example 03")
+let obj04 = {
+    country: 'India',
+    state: "Maharashtra",
+    city: "Pune",
+    pinCode: 411001,
+    mobileNumber: 123456789
+}
+console.log(obj04);
+
+
+
+

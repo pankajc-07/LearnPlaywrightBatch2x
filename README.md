@@ -192,13 +192,18 @@ LearnPlaywrightBatch2x/
 │   │   ├── 06_Arrays_Itarating.js
 │   │   ├── 07_Arrays_Transfroming_Arrays.js
 │   │   └── 08_Arrays_Sorting.js
-│   └── Functions/
-│       ├── F1.js
-│       ├── F2.js
-│       ├── Function03_IIFE.js
-│       ├── F4_Default_Parameter.js
-│       └── F5_Rest_Parameters.js
-└── README.md
+  │   ├── Functions/
+  │   │   ├── F1.js
+  │   │   ├── F2.js
+  │   │   ├── Function03_IIFE.js
+  │   │   ├── F4_Default_Parameter.js
+  │   │   └── F5_Rest_Parameters.js
+  │   └── MultiDimentionlArrays/
+  │       ├── 01_MD_Arrays.js
+  │       ├── 02_MD_Arrays.js
+  │       ├── 03_MD_Arrays_Functions.js
+  │       └── 04_MD_Arrays_Patteerns.js
+  └── README.md
 ```
 
 ## Chapter Breakdown
@@ -443,6 +448,12 @@ Hands-on practice modules for JavaScript arrays and functions.
 - `Task_01.js` - Triangle classification task
 - `Task_02.js` - FizzBuzz classic programming task
 
+**MultiDimentionlArrays Files:**
+- `01_MD_Arrays.js` - Introduction to multi-dimensional arrays
+- `02_MD_Arrays.js` - Accessing and modifying multi-dimensional arrays
+- `03_MD_Arrays_Functions.js` - Array functions and methods with multi-dimensional arrays
+- `04_MD_Arrays_Patteerns.js` - Common patterns and exercises with multi-dimensional arrays
+
 ## Getting Started
 
 ### Prerequisites
@@ -514,4 +525,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 05, 2026
+**Last Updated:** June 06, 2026
