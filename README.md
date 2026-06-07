@@ -198,11 +198,25 @@ LearnPlaywrightBatch2x/
   │   │   ├── Function03_IIFE.js
   │   │   ├── F4_Default_Parameter.js
   │   │   └── F5_Rest_Parameters.js
-  │   └── MultiDimentionlArrays/
-  │       ├── 01_MD_Arrays.js
-  │       ├── 02_MD_Arrays.js
-  │       ├── 03_MD_Arrays_Functions.js
-  │       └── 04_MD_Arrays_Patteerns.js
+  │   ├── MultiDimentionlArrays/
+  │   │   ├── 01_MD_Arrays.js
+  │   │   ├── 02_MD_Arrays.js
+  │   │   ├── 03_MD_Arrays_Functions.js
+  │   │   └── 04_MD_Arrays_Patteerns.js
+  │   ├── Callback/
+  │   │   ├── 01_Callback.js
+  │   │   ├── 02_Sync_Callback.js
+  │   │   ├── 03_Async_Callback.js
+  │   │   ├── 04_Callback_hell.js
+  │   │   ├── 05_Callback_Ex01.js
+  │   │   └── 06_Callback_Return.js
+  │   └── Promise/
+  │       ├── 01_Promise.js
+  │       ├── 02_Promise_API.js
+  │       ├── 03_Promise_Catch.js
+  │       ├── 04_Promise_Finally.js
+  │       ├── 05_Promise_Real.js
+  │       └── 06_Promise_All.js
   └── README.md
 ```
 
@@ -454,6 +468,28 @@ Hands-on practice modules for JavaScript arrays and functions.
 - `03_MD_Arrays_Functions.js` - Array functions and methods with multi-dimensional arrays
 - `04_MD_Arrays_Patteerns.js` - Common patterns and exercises with multi-dimensional arrays
 
+### Practice JS: Callback
+Understanding callback functions, synchronous and asynchronous callbacks, callback hell, and practical examples.
+
+**Files:**
+- `01_Callback.js` - Introduction to callback functions
+- `02_Sync_Callback.js` - Synchronous callback examples
+- `03_Async_Callback.js` - Asynchronous callback examples
+- `04_Callback_hell.js` - Callback hell and nested callbacks
+- `05_Callback_Ex01.js` - Callback exercise and examples
+- `06_Callback_Return.js` - Callback return values and patterns
+
+### Practice JS: Promise
+Mastering JavaScript Promises including creation, chaining, error handling with catch, finally block, and real-world API examples.
+
+**Files:**
+- `01_Promise.js` - Introduction to Promises
+- `02_Promise_API.js` - Promise API and methods
+- `03_Promise_Catch.js` - Error handling with Promise catch
+- `04_Promise_Finally.js` - Promise finally block
+- `05_Promise_Real.js` - Real-world Promise examples
+- `06_Promise_All.js` - Promise.all and concurrent execution
+
 ## Getting Started
 
 ### Prerequisites
@@ -502,6 +538,8 @@ node chapter_01_Basics/01_Basics.js
 12. Study Chapter 12 to understand functions, parameters, return types, and arrow functions
 13. Explore Chapter 13 to master JavaScript strings, searching, and transformations
 14. Study Chapter 14 to understand objects, object methods, destructuring, and primitive vs reference types
+15. Explore Callback section to understand callback functions, synchronous and asynchronous patterns
+16. Study Promise section to master Promise creation, chaining, error handling, and concurrent execution
 
 ## Interview Notes
 
@@ -525,4 +563,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 06, 2026
+**Last Updated:** June 07, 2026
