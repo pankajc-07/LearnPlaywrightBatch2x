@@ -182,6 +182,12 @@ LearnPlaywrightBatch2x/
 │   ├── 135_IQ.js
 │   ├── 136_Obj_REAL.js
 │   └── 137_Let_const_obj.js
+├── chapter_15_2D_Array/
+│   ├── 138_2D_Array.js
+│   ├── 139_2d.js
+│   ├── 140_REAL.js
+│   ├── 141_2d_Array_Fn.js
+│   └── 142_IQ_Right_Pattern_Py.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -192,32 +198,34 @@ LearnPlaywrightBatch2x/
 │   │   ├── 06_Arrays_Itarating.js
 │   │   ├── 07_Arrays_Transfroming_Arrays.js
 │   │   └── 08_Arrays_Sorting.js
-  │   ├── Functions/
-  │   │   ├── F1.js
-  │   │   ├── F2.js
-  │   │   ├── Function03_IIFE.js
-  │   │   ├── F4_Default_Parameter.js
-  │   │   └── F5_Rest_Parameters.js
-  │   ├── MultiDimentionlArrays/
-  │   │   ├── 01_MD_Arrays.js
-  │   │   ├── 02_MD_Arrays.js
-  │   │   ├── 03_MD_Arrays_Functions.js
-  │   │   └── 04_MD_Arrays_Patteerns.js
-  │   ├── Callback/
-  │   │   ├── 01_Callback.js
-  │   │   ├── 02_Sync_Callback.js
-  │   │   ├── 03_Async_Callback.js
-  │   │   ├── 04_Callback_hell.js
-  │   │   ├── 05_Callback_Ex01.js
-  │   │   └── 06_Callback_Return.js
-  │   └── Promise/
-  │       ├── 01_Promise.js
-  │       ├── 02_Promise_API.js
-  │       ├── 03_Promise_Catch.js
-  │       ├── 04_Promise_Finally.js
-  │       ├── 05_Promise_Real.js
-  │       └── 06_Promise_All.js
-  └── README.md
+│   ├── Functions/
+│   │   ├── F1.js
+│   │   ├── F2.js
+│   │   ├── Function03_IIFE.js
+│   │   ├── F4_Default_Parameter.js
+│   │   └── F5_Rest_Parameters.js
+│   ├── MultiDimentionlArrays/
+│   │   ├── 01_MD_Arrays.js
+│   │   ├── 02_MD_Arrays.js
+│   │   ├── 03_MD_Arrays_Functions.js
+│   │   └── 04_MD_Arrays_Patteerns.js
+│   ├── Callback/
+│   │   ├── 01_Callback.js
+│   │   ├── 02_Sync_Callback.js
+│   │   ├── 03_Async_Callback.js
+│   │   ├── 04_Callback_hell.js
+│   │   ├── 05_Callback_Ex01.js
+│   │   └── 06_Callback_Return.js
+│   └── Promise/
+│       ├── 01_Promise.js
+│       ├── 02_Promise_API.js
+│       ├── 03_Promise_Catch.js
+│       ├── 04_Promise_Finally.js
+│       ├── 05_Promise_Real.js
+│       ├── 06_Promise_All.js
+│       ├── 07_Promise_AllSettled.js
+│       └── 08_Promise_race.js
+└── README.md
 ```
 
 ## Chapter Breakdown
@@ -440,6 +448,16 @@ Deep dive into JavaScript objects including creation, primitive vs reference typ
 - `136_Obj_REAL.js` - Real-world object examples
 - `137_Let_const_obj.js` - Let vs const with objects
 
+### Chapter 15: 2D Arrays
+Understanding two-dimensional arrays, matrix operations, grid traversal, nested loops, and practical pattern exercises including real-world automation test matrix examples.
+
+**Files:**
+- `138_2D_Array.js` - Introduction to 2D arrays and nested loop traversal
+- `139_2d.js` - Matrix basics, rows, columns, and grid concepts
+- `140_REAL.js` - Real-world test matrix example (test case status tracking)
+- `141_2d_Array_Fn.js` - 2D array functions: map, reduce, filtering pass/fail test results
+- `142_IQ_Right_Pattern_Py.js` - Pattern programming exercises (right triangle, inverted triangle, pyramid)
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -480,7 +498,7 @@ Understanding callback functions, synchronous and asynchronous callbacks, callba
 - `06_Callback_Return.js` - Callback return values and patterns
 
 ### Practice JS: Promise
-Mastering JavaScript Promises including creation, chaining, error handling with catch, finally block, and real-world API examples.
+Mastering JavaScript Promises including creation, chaining, error handling with catch, finally block, real-world API examples, and advanced Promise combinators.
 
 **Files:**
 - `01_Promise.js` - Introduction to Promises
@@ -489,6 +507,8 @@ Mastering JavaScript Promises including creation, chaining, error handling with 
 - `04_Promise_Finally.js` - Promise finally block
 - `05_Promise_Real.js` - Real-world Promise examples
 - `06_Promise_All.js` - Promise.all and concurrent execution
+- `07_Promise_AllSettled.js` - Promise.allSettled for test report scenarios
+- `08_Promise_race.js` - Promise.race for timeout and fast-response scenarios
 
 ## Getting Started
 
@@ -540,6 +560,7 @@ node chapter_01_Basics/01_Basics.js
 14. Study Chapter 14 to understand objects, object methods, destructuring, and primitive vs reference types
 15. Explore Callback section to understand callback functions, synchronous and asynchronous patterns
 16. Study Promise section to master Promise creation, chaining, error handling, and concurrent execution
+17. Study Chapter 15 to understand 2D arrays, matrix traversal, and pattern programming
 
 ## Interview Notes
 
@@ -563,4 +584,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 07, 2026
+**Last Updated:** June 08, 2026
