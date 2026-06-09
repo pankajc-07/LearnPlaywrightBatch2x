@@ -66,4 +66,27 @@ placeOrder03("Burger", function () {
 placeOrder03("Burger", () => {
     console.log("Arrow function, I am also a function without name!");
 });
+console.log("*******************************************************");
+
+// Practice Examples
+console.log("Example 01")
+/*
+1. Simulating Network Delay (Timeout Callback)
+Problem Statement: Write a function fetchDataWithDelay that accepts a URL (string) and a callback function.
+Use setTimeout to simulate a network delay of 1.5 seconds. Once the timer completes, invoke the callback function,
+passing an object representing a successful response: { status: 200, data: 'Page Content Loaded' }.
+*/
+function fetchDataWithDelay(url, callback) {
+    console.log(`Fetching data from ${url}...`);
+    setTimeout(() => {
+        const response = { status: 200, data: 'Page Content Loaded' };
+        callback(response);
+    }, 1500);
+}
+
+// Usage:
+fetchDataWithDelay('https://example.com', (response) => {
+    console.log('Callback received:', response);
+});
+console.log("*******************************************************");
 

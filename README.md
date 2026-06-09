@@ -490,8 +490,8 @@ Hands-on practice modules for JavaScript arrays and functions.
 Understanding callback functions, synchronous and asynchronous callbacks, callback hell, and practical examples.
 
 **Files:**
-- `01_Callback.js` - Introduction to callback functions
-- `02_Sync_Callback.js` - Synchronous callback examples
+- `01_Callback.js` - Introduction to callback functions (including network delay simulation with timeout callback)
+- `02_Sync_Callback.js` - Synchronous callback examples (element clicker, UI status checker, test data sanitizer, custom filter, and API response mock reporter)
 - `03_Async_Callback.js` - Asynchronous callback examples
 - `04_Callback_hell.js` - Callback hell and nested callbacks
 - `05_Callback_Ex01.js` - Callback exercise and examples

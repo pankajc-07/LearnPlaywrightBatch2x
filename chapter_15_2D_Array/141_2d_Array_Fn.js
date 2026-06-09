@@ -405,5 +405,3 @@ const formSections = [
 console.log(flattenFormValues(formSections));
 // Output: [ 'John', 'Doe', 'US', 'NY', '10001', 'Visa' ]
 
-
-
