@@ -455,7 +455,7 @@ Understanding two-dimensional arrays, matrix operations, grid traversal, nested 
 - `138_2D_Array.js` - Introduction to 2D arrays and nested loop traversal
 - `139_2d.js` - Matrix basics, rows, columns, and grid concepts
 - `140_REAL.js` - Real-world test matrix example (test case status tracking)
-- `141_2d_Array_Fn.js` - 2D array functions: map, reduce, filtering pass/fail test results
+- `141_2d_Array_Fn.js` - 2D array functions: column extraction, row finder by key, grid coordinates search, matrix comparison/diff checker, HTML table data extractor, column sorting validator, low-stock highlighting, and flattening form values
 - `142_IQ_Right_Pattern_Py.js` - Pattern programming exercises (right triangle, inverted triangle, pyramid)
 
 ### Practice JS: Arrays & Functions
@@ -584,4 +584,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 08, 2026
+**Last Updated:** June 09, 2026
