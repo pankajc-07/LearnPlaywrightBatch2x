@@ -188,6 +188,18 @@ LearnPlaywrightBatch2x/
 │   ├── 140_REAL.js
 │   ├── 141_2d_Array_Fn.js
 │   └── 142_IQ_Right_Pattern_Py.js
+├── chapter_16_Callback/
+│   ├── 143_Callback.js
+│   ├── 144_CB.js
+│   ├── 145_CB_Fn.js
+│   ├── 146_PW_CB.js
+│   ├── 147_JS_CB.js
+│   ├── 148_Sync_CB.js
+│   ├── 149_Async_CB.js
+│   ├── 150_CB_Hell.js
+│   ├── 151_CB_Hell_20_Steps.js
+│   ├── 152_CB_Parameter.js
+│   └── 153_CB_Return.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -458,6 +470,22 @@ Understanding two-dimensional arrays, matrix operations, grid traversal, nested 
 - `141_2d_Array_Fn.js` - 2D array functions: column extraction, row finder by key, grid coordinates search, matrix comparison/diff checker, HTML table data extractor, column sorting validator, low-stock highlighting, and flattening form values
 - `142_IQ_Right_Pattern_Py.js` - Pattern programming exercises (right triangle, inverted triangle, pyramid)
 
+### Chapter 16: Callbacks
+Comprehensive coverage of callback functions including basic callbacks, synchronous and asynchronous callbacks, callback hell, and real-world examples.
+
+**Files:**
+- `143_Callback.js` - Introduction to callback functions with anonymous and arrow function examples
+- `144_CB.js` - Basic callback test example
+- `145_CB_Fn.js` - Callback functions with real-world cafe ordering examples
+- `146_PW_CB.js` - Playwright-specific callback examples
+- `147_JS_CB.js` - JavaScript callback patterns and examples
+- `148_Sync_CB.js` - Synchronous callback execution patterns
+- `149_Async_CB.js` - Asynchronous callback execution patterns
+- `150_CB_Hell.js` - Callback hell introduction and examples
+- `151_CB_Hell_20_Steps.js` - Deep callback nesting with 20 steps example
+- `152_CB_Parameter.js` - Callback functions with parameters
+- `153_CB_Return.js` - Callback return values and patterns
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -561,6 +589,7 @@ node chapter_01_Basics/01_Basics.js
 15. Explore Callback section to understand callback functions, synchronous and asynchronous patterns
 16. Study Promise section to master Promise creation, chaining, error handling, and concurrent execution
 17. Study Chapter 15 to understand 2D arrays, matrix traversal, and pattern programming
+18. Study Chapter 16 to master callback functions, callback hell, and real-world callback patterns
 
 ## Interview Notes
 
@@ -584,4 +613,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 09, 2026
+**Last Updated:** June 10, 2026
