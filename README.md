@@ -505,8 +505,6 @@ Hands-on practice modules for JavaScript arrays and functions.
 - `Function03_IIFE.js` - Immediately Invoked Function Expressions (IIFE)
 - `F4_Default_Parameter.js` - Functions with default parameters
 - `F5_Rest_Parameters.js` - Rest parameters, spread operator, and hoisting behavior
-- `Task_01.js` - Triangle classification task
-- `Task_02.js` - FizzBuzz classic programming task
 
 **MultiDimentionlArrays Files:**
 - `01_MD_Arrays.js` - Introduction to multi-dimensional arrays
