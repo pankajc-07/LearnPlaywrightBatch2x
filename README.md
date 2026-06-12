@@ -200,6 +200,12 @@ LearnPlaywrightBatch2x/
 │   ├── 151_CB_Hell_20_Steps.js
 │   ├── 152_CB_Parameter.js
 │   └── 153_CB_Return.js
+├── chapter_17_Promise/
+│   ├── 154_Promise.js
+│   ├── 155_Promise_Real_API.js
+│   ├── 156_Promise_Real_API_part2.js
+│   ├── 157_Finally.js
+│   └── 158_Call_Py_Problem.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -486,6 +492,16 @@ Comprehensive coverage of callback functions including basic callbacks, synchron
 - `152_CB_Parameter.js` - Callback functions with parameters
 - `153_CB_Return.js` - Callback return values and patterns
 
+### Chapter 17: Promises
+Comprehensive coverage of JavaScript Promises including creation, real-world API examples, error handling, and finally blocks.
+
+**Files:**
+- `154_Promise.js` - Introduction to Promises with creation and basic chaining
+- `155_Promise_Real_API.js` - Real-world API Promise examples with fetch and status handling
+- `156_Promise_Real_API_part2.js` - Advanced API Promise patterns and multiple request handling
+- `157_Finally.js` - Promise finally block for cleanup and final execution
+- `158_Call_Py_Problem.js` - Practical problem solving with Promises
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -588,6 +604,7 @@ node chapter_01_Basics/01_Basics.js
 16. Study Promise section to master Promise creation, chaining, error handling, and concurrent execution
 17. Study Chapter 15 to understand 2D arrays, matrix traversal, and pattern programming
 18. Study Chapter 16 to master callback functions, callback hell, and real-world callback patterns
+19. Study Chapter 17 to master JavaScript Promises, real-world API handling, and Promise chaining
 
 ## Interview Notes
 
@@ -611,4 +628,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 11, 2026
+**Last Updated:** June 13, 2026
