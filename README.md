@@ -205,7 +205,9 @@ LearnPlaywrightBatch2x/
 │   ├── 155_Promise_Real_API.js
 │   ├── 156_Promise_Real_API_part2.js
 │   ├── 157_Finally.js
-│   └── 158_Call_Py_Problem.js
+│   ├── 158_Call_Py_Problem.js
+│   ├── 159_Promise_All.js
+│   └── 160_Promise_IQ.js
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -234,16 +236,25 @@ LearnPlaywrightBatch2x/
 │   │   ├── 04_Callback_hell.js
 │   │   ├── 05_Callback_Ex01.js
 │   │   └── 06_Callback_Return.js
-│   └── Promise/
-│       ├── 01_Promise.js
-│       ├── 02_Promise_API.js
-│       ├── 03_Promise_Catch.js
-│       ├── 04_Promise_Finally.js
-│       ├── 05_Promise_Real.js
-│       ├── 06_Promise_All.js
-│       ├── 07_Promise_AllSettled.js
-│       └── 08_Promise_race.js
-└── README.md
+   │   └── Promise/
+   │       ├── 01_Promise.js
+   │       ├── 02_Promise_API.js
+   │       ├── 03_Promise_Catch.js
+   │       ├── 04_Promise_Finally.js
+   │       ├── 05_Promise_Real.js
+   │       ├── 06_Promise_All.js
+   │       ├── 07_Promise_AllSettled.js
+   │       └── 08_Promise_race.js
+   │   └── Async_Await/
+   │       ├── 01_Async_Await.js
+   │       ├── 02_Converted_Code_Async_Await.js
+   │       ├── 03_Async_Await.js
+   │       ├── 04_Try_Catch.js
+   │       ├── 05_Sequential_Execution.js
+   │       ├── 06_Parallel_Execution.js
+   │       ├── 07_IQ.js
+   │       └── 08_API_Real_Flaky.js
+   └── README.md
 ```
 
 ## Chapter Breakdown
@@ -493,7 +504,7 @@ Comprehensive coverage of callback functions including basic callbacks, synchron
 - `153_CB_Return.js` - Callback return values and patterns
 
 ### Chapter 17: Promises
-Comprehensive coverage of JavaScript Promises including creation, real-world API examples, error handling, and finally blocks.
+Comprehensive coverage of JavaScript Promises including creation, real-world API examples, error handling, finally blocks, Promise.all, Promise.allSettled, and interview questions.
 
 **Files:**
 - `154_Promise.js` - Introduction to Promises with creation and basic chaining
@@ -501,6 +512,8 @@ Comprehensive coverage of JavaScript Promises including creation, real-world API
 - `156_Promise_Real_API_part2.js` - Advanced API Promise patterns and multiple request handling
 - `157_Finally.js` - Promise finally block for cleanup and final execution
 - `158_Call_Py_Problem.js` - Practical problem solving with Promises
+- `159_Promise_All.js` - Promise.all and Promise.allSettled for concurrent execution and test report scenarios
+- `160_Promise_IQ.js` - Promise interview questions covering resolve, reject, chaining, error handling, and Promise combinators
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
@@ -551,6 +564,19 @@ Mastering JavaScript Promises including creation, chaining, error handling with 
 - `06_Promise_All.js` - Promise.all and concurrent execution
 - `07_Promise_AllSettled.js` - Promise.allSettled for test report scenarios
 - `08_Promise_race.js` - Promise.race for timeout and fast-response scenarios
+
+### Practice JS: Async/Await
+Mastering JavaScript async/await syntax including basic async functions, error handling with try/catch/finally, sequential and parallel execution, and real-world retry patterns.
+
+**Files:**
+- `01_Async_Await.js` - Basic async/await syntax and converting Promise chains to async/await
+- `02_Converted_Code_Async_Await.js` - Converting login flow promises to clean async/await syntax
+- `03_Async_Await.js` - Async function return behavior and sequential await patterns
+- `04_Try_Catch.js` - Error handling with try/catch/finally in async functions
+- `05_Sequential_Execution.js` - Sequential test execution with dependent async steps
+- `06_Parallel_Execution.js` - Parallel execution using Promise.all with async/await
+- `07_IQ.js` - Async/await interview questions covering execution order, error handling, Promise.all, and async IIFE
+- `08_API_Real_Flaky.js` - Real-world flaky test retry pattern with async/await
 
 ## Getting Started
 
@@ -605,6 +631,7 @@ node chapter_01_Basics/01_Basics.js
 17. Study Chapter 15 to understand 2D arrays, matrix traversal, and pattern programming
 18. Study Chapter 16 to master callback functions, callback hell, and real-world callback patterns
 19. Study Chapter 17 to master JavaScript Promises, real-world API handling, and Promise chaining
+20. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
 
 ## Interview Notes
 
