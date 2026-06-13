@@ -254,6 +254,20 @@ LearnPlaywrightBatch2x/
    │       ├── 06_Parallel_Execution.js
    │       ├── 07_IQ.js
    │       └── 08_API_Real_Flaky.js
+   │   └── OOPs/
+   │       ├── logger.js
+   │       ├── testutil.js
+   │       ├── utils.js
+   │       ├── Class_Object/
+   │       │   ├── 04_Class_Objects.js
+   │       │   ├── 05_Car.js
+   │       │   ├── 06_Class_Object_Browser.js
+   │       │   ├── 07_Browser.js
+   │       │   └── 08_IQ.js
+   │       └── Export_Import/
+   │           ├── 01_Export_Import.js
+   │           ├── 02_Export_Import.js
+   │           └── 03_Logger.js
    └── README.md
 ```
 
@@ -578,6 +592,22 @@ Mastering JavaScript async/await syntax including basic async functions, error h
 - `07_IQ.js` - Async/await interview questions covering execution order, error handling, Promise.all, and async IIFE
 - `08_API_Real_Flaky.js` - Real-world flaky test retry pattern with async/await
 
+### Practice JS: OOPs
+Object-oriented programming concepts in JavaScript including classes, objects, constructors, methods, and ES6 module exports/imports.
+
+**Files:**
+- `04_Class_Objects.js` - Introduction to classes, attributes, and methods (CAB pattern)
+- `05_Car.js` - Car class with constructor and methods
+- `06_Class_Object_Browser.js` - TestCase class with real-world automation test case representation
+- `07_Browser.js` - Browser class demonstrating object creation and property access
+- `08_IQ.js` - APIClient class with baseURL and path building
+- `logger.js` - Default and named export examples for logging utilities
+- `testutil.js` - Named exports for base URL and string formatting utilities
+- `utils.js` - Named exports for staging API base URL and test name formatting
+- `01_Export_Import.js` - Importing named exports from testutil.js
+- `02_Export_Import.js` - Importing with aliases from multiple utility modules
+- `03_Logger.js` - Importing default exports from logger.js
+
 ## Getting Started
 
 ### Prerequisites
@@ -632,6 +662,7 @@ node chapter_01_Basics/01_Basics.js
 18. Study Chapter 16 to master callback functions, callback hell, and real-world callback patterns
 19. Study Chapter 17 to master JavaScript Promises, real-world API handling, and Promise chaining
 20. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
+21. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
 
 ## Interview Notes
 
