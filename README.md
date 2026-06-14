@@ -258,13 +258,25 @@ LearnPlaywrightBatch2x/
    │       ├── logger.js
    │       ├── testutil.js
    │       ├── utils.js
-   │       ├── Class_Object/
-   │       │   ├── 04_Class_Objects.js
-   │       │   ├── 05_Car.js
-   │       │   ├── 06_Class_Object_Browser.js
-   │       │   ├── 07_Browser.js
-   │       │   └── 08_IQ.js
-   │       └── Export_Import/
+    │       ├── Class_Object/
+    │       │   ├── 04_Class_Objects.js
+    │       │   ├── 05_Car.js
+    │       │   ├── 06_Class_Object_Browser.js
+    │       │   ├── 07_Browser.js
+    │       │   ├── 08_IQ.js
+    │       │   ├── 09_Private_Public.js
+    │       │   ├── 10_Static.js
+    │       │   └── 11_Static_p2.js
+    │       ├── Encapsulation/
+    │       │   ├── 01_Pramod_Child.js
+    │       │   ├── 02_Car.js
+    │       │   ├── 03_Bank.js
+    │       │   ├── 04_Exercise_01.js
+    │       │   ├── 05_Exercise_02.js
+    │       │   ├── 06_Exercise_03,js
+    │       │   ├── 07_Exercise_04.js
+    │       │   └── 08_Exercise_05.js
+    │       └── Export_Import/
    │           ├── 01_Export_Import.js
    │           ├── 02_Export_Import.js
    │           └── 03_Logger.js
@@ -601,12 +613,25 @@ Object-oriented programming concepts in JavaScript including classes, objects, c
 - `06_Class_Object_Browser.js` - TestCase class with real-world automation test case representation
 - `07_Browser.js` - Browser class demonstrating object creation and property access
 - `08_IQ.js` - APIClient class with baseURL and path building
+- `09_Private_Public.js` - Private and public fields/methods in JavaScript classes
+- `10_Static.js` - Static properties and methods in classes
+- `11_Static_p2.js` - Advanced static members and real-world examples
 - `logger.js` - Default and named export examples for logging utilities
 - `testutil.js` - Named exports for base URL and string formatting utilities
 - `utils.js` - Named exports for staging API base URL and test name formatting
 - `01_Export_Import.js` - Importing named exports from testutil.js
 - `02_Export_Import.js` - Importing with aliases from multiple utility modules
 - `03_Logger.js` - Importing default exports from logger.js
+
+**Encapsulation Files:**
+- `01_Pramod_Child.js` - Inheritance and encapsulation basics
+- `02_Car.js` - Encapsulation with Car class (private fields, getters/setters)
+- `03_Bank.js` - Bank account encapsulation example
+- `04_Exercise_01.js` - Encapsulation exercise 1
+- `05_Exercise_02.js` - Encapsulation exercise 2
+- `06_Exercise_03,js` - Encapsulation exercise 3
+- `07_Exercise_04.js` - Encapsulation exercise 4
+- `08_Exercise_05.js` - Encapsulation exercise 5
 
 ## Getting Started
 
@@ -686,4 +711,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 13, 2026
+**Last Updated:** June 14, 2026
