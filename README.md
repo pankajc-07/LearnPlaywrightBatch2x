@@ -208,6 +208,18 @@ LearnPlaywrightBatch2x/
 │   ├── 158_Call_Py_Problem.js
 │   ├── 159_Promise_All.js
 │   └── 160_Promise_IQ.js
+├── chapter_18_Async_Await/
+│   ├── 161_Async.js
+│   ├── 162_Aysnc_P2.js
+│   ├── 163_PyODom.js
+│   ├── 164_Async_Ex.js
+│   ├── 165_AA_Parallel.js
+│   ├── 165_AA_Seq.js
+│   ├── 166_IQ.js
+│   └── 167_ACLogin.js
+├── chapter_19_Playwright_Basics/
+│   ├── package.json
+│   └── package-lock.json
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -541,6 +553,26 @@ Comprehensive coverage of JavaScript Promises including creation, real-world API
 - `159_Promise_All.js` - Promise.all and Promise.allSettled for concurrent execution and test report scenarios
 - `160_Promise_IQ.js` - Promise interview questions covering resolve, reject, chaining, error handling, and Promise combinators
 
+### Chapter 18: Async/Await
+Comprehensive coverage of JavaScript async/await syntax including basic async functions, DOM manipulation with async patterns, sequential and parallel execution, and real-world login examples.
+
+**Files:**
+- `161_Async.js` - Introduction to async/await syntax
+- `162_Aysnc_P2.js` - Advanced async/await concepts
+- `163_PyODom.js` - Async/await with DOM manipulation
+- `164_Async_Ex.js` - Async/await exercises and examples
+- `165_AA_Parallel.js` - Parallel execution with async/await
+- `165_AA_Seq.js` - Sequential execution with async/await
+- `166_IQ.js` - Async/await interview questions
+- `167_ACLogin.js` - Real-world async/await login example
+
+### Chapter 19: Playwright Basics
+Introduction to Playwright automation testing framework including project setup, package configuration, and foundational test infrastructure.
+
+**Files:**
+- `package.json` - Playwright project configuration and dependencies
+- `package-lock.json` - Locked dependency versions for reproducible installs
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -686,8 +718,10 @@ node chapter_01_Basics/01_Basics.js
 17. Study Chapter 15 to understand 2D arrays, matrix traversal, and pattern programming
 18. Study Chapter 16 to master callback functions, callback hell, and real-world callback patterns
 19. Study Chapter 17 to master JavaScript Promises, real-world API handling, and Promise chaining
-20. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
-21. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
+20. Study Chapter 18 to master async/await syntax, sequential and parallel execution, and real-world async patterns
+21. Study Chapter 19 to get started with Playwright automation testing framework and project setup
+22. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
+23. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
 
 ## Interview Notes
 
@@ -711,4 +745,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 14, 2026
+**Last Updated:** June 15, 2026
