@@ -218,8 +218,12 @@ LearnPlaywrightBatch2x/
 │   ├── 166_IQ.js
 │   └── 167_ACLogin.js
 ├── chapter_19_Playwright_Basics/
+│   ├── .gitignore
 │   ├── package.json
-│   └── package-lock.json
+│   ├── package-lock.json
+│   ├── playwright.config.ts
+│   └── tests/
+│       └── example.spec.ts
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -567,11 +571,14 @@ Comprehensive coverage of JavaScript async/await syntax including basic async fu
 - `167_ACLogin.js` - Real-world async/await login example
 
 ### Chapter 19: Playwright Basics
-Introduction to Playwright automation testing framework including project setup, package configuration, and foundational test infrastructure.
+Introduction to Playwright automation testing framework including project setup, package configuration, configuration file, and foundational test infrastructure with example specs.
 
 **Files:**
+- `.gitignore` - Git ignore rules for Playwright project (node_modules, test results, reports)
 - `package.json` - Playwright project configuration and dependencies
 - `package-lock.json` - Locked dependency versions for reproducible installs
+- `playwright.config.ts` - Playwright test configuration with Chromium project setup, HTML reporter, and CI settings
+- `tests/example.spec.ts` - Example Playwright test verifying page title on TTACart login page
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
