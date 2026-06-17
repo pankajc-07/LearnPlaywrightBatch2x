@@ -223,7 +223,8 @@ LearnPlaywrightBatch2x/
 │   ├── package-lock.json
 │   ├── playwright.config.ts
 │   └── tests/
-│       └── example.spec.ts
+│       ├── example.spec.ts
+│       └── codegen-tta-cart.spec.ts
 ├── Practice_JS/
 │   ├── Arrays/
 │   │   ├── 01_Arrays_Creations.js
@@ -579,6 +580,7 @@ Introduction to Playwright automation testing framework including project setup,
 - `package-lock.json` - Locked dependency versions for reproducible installs
 - `playwright.config.ts` - Playwright test configuration with Chromium project setup, HTML reporter, and CI settings
 - `tests/example.spec.ts` - Example Playwright test verifying page title on TTACart login page
+- `tests/codegen-tta-cart.spec.ts` - Playwright codegen-generated test for TTACart login flow with error validation and ARIA snapshot matching
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
