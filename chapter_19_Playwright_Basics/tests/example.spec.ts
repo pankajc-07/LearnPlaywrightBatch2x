@@ -8,3 +8,13 @@ test("Verify that the title will be TTA Cart", async ({ page }) => {
   await expect(page).toHaveTitle("TTACart - Login");
   await page.waitForTimeout(5000);
 });
+
+// npx playwright test tests/example.spec.ts --headed --project=chromium
+// npx playwright test tests/example.spec.ts --headed --project=firefox
+// npx playwright test tests/example.spec.ts --headed --project=webkit
+
+
+
+
+
+

@@ -581,6 +581,12 @@ Introduction to Playwright automation testing framework including project setup,
 - `playwright.config.ts` - Playwright test configuration with Chromium project setup, HTML reporter, and CI settings
 - `tests/example.spec.ts` - Example Playwright test verifying page title on TTACart login page
 - `tests/codegen-tta-cart.spec.ts` - Playwright codegen-generated test for TTACart login flow with error validation and ARIA snapshot matching
+- `tests/ttacart-comprehensive.spec.ts` - Comprehensive test suite covering all aspects of TTACart login (30 tests)
+- `tests/practice01.spec.ts` - UI & Navigation tests (11 tests)
+- `tests/practice02.spec.ts` - Login Functionality tests (6 tests)
+- `tests/practice03.spec.ts` - Negative & Validation tests (4 tests)
+- `tests/practice04.spec.ts` - Accessibility tests (4 tests)
+- `tests/practice05.spec.ts` - Data-Driven tests (5 tests)
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
