@@ -298,6 +298,15 @@ LearnPlaywrightBatch2x/
    │           ├── 02_Export_Import.js
    │           └── 03_Logger.js
    └── README.md
+├── chapter_20_Typescript_Basics/
+│   ├── logger.js
+│   ├── testutils.js
+│   ├── utils.js
+│   └── EXPORT_IMPORT/
+│       ├── 168_EXPORT_IMPORT.js
+│       ├── 169_Utils.js
+│       ├── 170_Logger.js
+│       └── ExplainDefault.md
 ```
 
 ## Chapter Breakdown
@@ -588,6 +597,18 @@ Introduction to Playwright automation testing framework including project setup,
 - `tests/practice04.spec.ts` - Accessibility tests (4 tests)
 - `tests/practice05.spec.ts` - Data-Driven tests (5 tests)
 
+### Chapter 20: TypeScript Basics
+Introduction to TypeScript fundamentals including module exports and imports, utility modules, and ES6 module patterns for scalable automation testing projects.
+
+**Files:**
+- `logger.js` - Default and named export examples for logging utilities
+- `testutils.js` - Named exports for base URL and string formatting utilities
+- `utils.js` - Named exports for staging API base URL and test name formatting
+- `EXPORT_IMPORT/168_EXPORT_IMPORT.js` - Importing named exports from utility modules
+- `EXPORT_IMPORT/169_Utils.js` - Importing with aliases from multiple utility modules
+- `EXPORT_IMPORT/170_Logger.js` - Importing default exports from logger module
+- `EXPORT_IMPORT/ExplainDefault.md` - Explanation of default exports and imports in JavaScript/TypeScript modules
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -735,8 +756,9 @@ node chapter_01_Basics/01_Basics.js
 19. Study Chapter 17 to master JavaScript Promises, real-world API handling, and Promise chaining
 20. Study Chapter 18 to master async/await syntax, sequential and parallel execution, and real-world async patterns
 21. Study Chapter 19 to get started with Playwright automation testing framework and project setup
-22. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
-23. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
+22. Study Chapter 20 to understand TypeScript basics, module exports/imports, and ES6 module patterns
+23. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
+24. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
 
 ## Interview Notes
 
@@ -760,4 +782,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 17, 2026
+**Last Updated:** June 19, 2026
