@@ -282,9 +282,11 @@ LearnPlaywrightBatch2x/
     │       │   ├── 07_Browser.js
     │       │   ├── 08_IQ.js
     │       │   ├── 09_Private_Public.js
-    │       │   ├── 10_Static.js
-    │       │   └── 11_Static_p2.js
-    │       ├── Encapsulation/
+     │       │   ├── 10_Static.js
+     │       │   ├── 11_Static_p2.js
+     │       │   ├── 12_Objects.js
+     │       │   └── 13_Class.js
+     │       ├── Encapsulation/
     │       │   ├── 01_Pramod_Child.js
     │       │   ├── 02_Car.js
     │       │   ├── 03_Bank.js
@@ -293,11 +295,30 @@ LearnPlaywrightBatch2x/
     │       │   ├── 06_Exercise_03,js
     │       │   ├── 07_Exercise_04.js
     │       │   └── 08_Exercise_05.js
-    │       └── Export_Import/
-   │           ├── 01_Export_Import.js
-   │           ├── 02_Export_Import.js
-   │           └── 03_Logger.js
-   └── README.md
+     │       ├── Export_Import/
+     │       │   ├── 01_Export_Import.js
+     │       │   ├── 02_Export_Import.js
+     │       │   └── 03_Logger.js
+     │       ├── Exporting_Class/
+     │       │   ├── 01_BasePage.js
+     │       │   ├── 02_LoginPage.js
+     │       │   └── 03_Test.js
+     │       ├── Hierarchial_Inheritance/
+     │       │   └── 01_Hierarchial_Inheritance.js
+     │       ├── Multiple_Inheritance/
+     │       │   └── 01.js
+     │       ├── Muti_Level_Inheritance/
+     │       │   └── 01_MI.js
+     │       ├── Polymorphism/
+     │       │   ├── 01_Method_Overriding.js
+     │       │   ├── 02_Method_Overriding_IQ.js
+     │       │   ├── 03_Method_Overriding.js
+     │       │   ├── 04_MO_PageObject.js
+     │       │   └── 05_RO.js
+     │       └── Single_Inheritance/
+     │           ├── 01_Inheritance.js
+     │           └── 02_SingleInheritance.js
+    └── README.md
 ├── chapter_20_Typescript_Basics/
 │   ├── logger.js
 │   ├── testutils.js
@@ -684,6 +705,8 @@ Object-oriented programming concepts in JavaScript including classes, objects, c
 - `09_Private_Public.js` - Private and public fields/methods in JavaScript classes
 - `10_Static.js` - Static properties and methods in classes
 - `11_Static_p2.js` - Advanced static members and real-world examples
+- `12_Objects.js` - JavaScript objects advanced concepts and methods
+- `13_Class.js` - Advanced class patterns and inheritance basics
 - `logger.js` - Default and named export examples for logging utilities
 - `testutil.js` - Named exports for base URL and string formatting utilities
 - `utils.js` - Named exports for staging API base URL and test name formatting
@@ -700,6 +723,31 @@ Object-oriented programming concepts in JavaScript including classes, objects, c
 - `06_Exercise_03,js` - Encapsulation exercise 3
 - `07_Exercise_04.js` - Encapsulation exercise 4
 - `08_Exercise_05.js` - Encapsulation exercise 5
+
+**Exporting_Class Files:**
+- `01_BasePage.js` - Base page class for Page Object Model pattern
+- `02_LoginPage.js` - Login page class extending BasePage
+- `03_Test.js` - Test execution script using page classes
+
+**Hierarchial_Inheritance Files:**
+- `01_Hierarchial_Inheritance.js` - Hierarchical inheritance example with base and child classes
+
+**Multiple_Inheritance Files:**
+- `01.js` - Multiple inheritance patterns in JavaScript
+
+**Muti_Level_Inheritance Files:**
+- `01_MI.js` - Multi-level inheritance chain example
+
+**Polymorphism Files:**
+- `01_Method_Overriding.js` - Method overriding basics
+- `02_Method_Overriding_IQ.js` - Method overriding interview questions
+- `03_Method_Overriding.js` - Advanced method overriding examples
+- `04_MO_PageObject.js` - Method overriding in Page Object Model
+- `05_RO.js` - Runtime polymorphism example
+
+**Single_Inheritance Files:**
+- `01_Inheritance.js` - Single inheritance basics
+- `02_SingleInheritance.js` - Single inheritance examples and patterns
 
 ## Getting Started
 
@@ -759,6 +807,7 @@ node chapter_01_Basics/01_Basics.js
 22. Study Chapter 20 to understand TypeScript basics, module exports/imports, and ES6 module patterns
 23. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
 24. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
+25. Explore advanced OOPs topics including inheritance (single, multi-level, hierarchical, multiple), polymorphism, method overriding, and Page Object Model patterns
 
 ## Interview Notes
 
@@ -782,4 +831,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 19, 2026
+**Last Updated:** June 20, 2026
