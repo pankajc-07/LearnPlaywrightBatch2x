@@ -36,4 +36,26 @@ console.log(dog.breed);
 // - `extends`  → makes a child class
 // - `super()`  → calls the parent's constructor (MUST be first line in child constructor)
 // - Child gets ALL parent methods automatically
+console.log("**********************************************");
+
+
+class Animal {
+    constructor(name) {
+        this.name = name;
+    }
+
+    speak() {
+        console.log(this.name + " makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    bark() {
+        console.log(this.name + " barks");
+    }
+}
+
+let d = new Dog("Rex");
+d.speak();
+d.bark();
 

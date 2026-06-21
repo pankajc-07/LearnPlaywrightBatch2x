@@ -11,6 +11,7 @@ A comprehensive learning repository for JavaScript basics and Playwright automat
 - [Prerequisites](#prerequisites)
 - [Usage](#usage)
 - [Resources](#resources)
+- [Playwright Test Challenges](#playwright-test-challenges)
 
 ## Overview
 
@@ -318,7 +319,18 @@ LearnPlaywrightBatch2x/
      │       └── Single_Inheritance/
      │           ├── 01_Inheritance.js
      │           └── 02_SingleInheritance.js
-    └── README.md
+     └── README.md
+├── 21062026_PaywrightTest/
+│   ├── 01_Challenge.js
+│   ├── 02_Challenge.js
+│   ├── 03_Challenge.js
+│   ├── 04_Challenge.js
+│   ├── 05_Challenge.js
+│   ├── 06_Challenge.js
+│   ├── 07_Challenge.js
+│   ├── 08_Challenge.js
+│   ├── 09_Challenge.js
+│   └── 10_Challenge.js
 ├── chapter_20_Typescript_Basics/
 │   ├── logger.js
 │   ├── testutils.js
@@ -736,18 +748,18 @@ Object-oriented programming concepts in JavaScript including classes, objects, c
 - `01.js` - Multiple inheritance patterns in JavaScript
 
 **Muti_Level_Inheritance Files:**
-- `01_MI.js` - Multi-level inheritance chain example
+- `01_MI.js` - Multi-level inheritance chain example with `super()` calls to parent constructors
 
 **Polymorphism Files:**
 - `01_Method_Overriding.js` - Method overriding basics
 - `02_Method_Overriding_IQ.js` - Method overriding interview questions
 - `03_Method_Overriding.js` - Advanced method overriding examples
 - `04_MO_PageObject.js` - Method overriding in Page Object Model
-- `05_RO.js` - Runtime polymorphism example
+- `05_RO.js` - Runtime polymorphism example with method override using `super.method()`, `instanceof` checks, and complete replacement patterns
 
 **Single_Inheritance Files:**
 - `01_Inheritance.js` - Single inheritance basics
-- `02_SingleInheritance.js` - Single inheritance examples and patterns
+- `02_SingleInheritance.js` - Single inheritance examples and patterns with Animal/Dog class hierarchy
 
 ## Getting Started
 
@@ -808,6 +820,23 @@ node chapter_01_Basics/01_Basics.js
 23. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
 24. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
 25. Explore advanced OOPs topics including inheritance (single, multi-level, hierarchical, multiple), polymorphism, method overriding, and Page Object Model patterns
+26. Solve the Playwright Test Challenges for real-world automation problem solving
+
+## Playwright Test Challenges
+
+A set of 10 practical coding challenges designed for automation testers, covering real-world scenarios like test result analysis, API retry logic, element visibility checks, test data generation, bug severity classification, response time SLA monitoring, environment configuration, login brute-force detection, and a mini test suite runner.
+
+**Files:**
+- `01_Challenge.js` - Test Case Result Counter: Count pass/fail/skip results and calculate pass rate with verdict
+- `02_Challenge.js` - Test Case Result Counter: Alternative implementation for counting test results
+- `03_Challenge.js` - Retry Failed API Call: Simulate API retry logic with random success/failure and attempt tracking
+- `04_Challenge.js` - Element Visibility Checker: Determine element status (READY, DISABLED, HIDDEN, NOT FOUND) using logical operators
+- `05_Challenge.js` - Test Data Generator: Generate structured user records with roles, emails, and status using loops and modulo logic
+- `06_Challenge.js` - Bug Severity Classifier: Classify bugs by frequency and impact using nested if-else logic
+- `07_Challenge.js` - Response Time SLA Analyzer: Analyze API response times, track min/max, and detect SLA breaches with while loops
+- `08_Challenge.js` - Test Environment Config: Configure environment URLs, API keys, and timeouts using switch-case fall-through logic
+- `09_Challenge.js` - Login Brute-Force Detection: Track login attempts, detect failures, and trigger account lockout with do...while loops
+- `10_Challenge.js` - Mini Test Suite Runner: Execute test cases with various assertion types (strictEqual, looseEqual, typeCheck, truthy, lessThan) and generate summary reports
 
 ## Interview Notes
 
@@ -831,4 +860,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 20, 2026
+**Last Updated:** June 21, 2026
