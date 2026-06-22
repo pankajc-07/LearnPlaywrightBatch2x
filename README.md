@@ -335,6 +335,17 @@ LearnPlaywrightBatch2x/
 │   ├── logger.js
 │   ├── testutils.js
 │   ├── utils.js
+│   ├── 02_CLASS_OBJECT/
+│   │   ├── 171_Class_Object.js
+│   │   ├── 172_Class_Object2.js
+│   │   ├── 173_Car.js
+│   │   ├── 174_REAL_Browser.js
+│   │   ├── 175_IQ.js
+│   │   ├── 176_Private_Public.js
+│   │   ├── 177_Statis.js
+│   │   ├── 178_Statis.js
+│   │   ├── Task_01.js
+│   │   └── Task_02.js
 │   └── EXPORT_IMPORT/
 │       ├── 168_EXPORT_IMPORT.js
 │       ├── 169_Utils.js
@@ -637,6 +648,16 @@ Introduction to TypeScript fundamentals including module exports and imports, ut
 - `logger.js` - Default and named export examples for logging utilities
 - `testutils.js` - Named exports for base URL and string formatting utilities
 - `utils.js` - Named exports for staging API base URL and test name formatting
+- `02_CLASS_OBJECT/171_Class_Object.js` - Introduction to classes and objects with attributes and behaviors
+- `02_CLASS_OBJECT/172_Class_Object2.js` - Object creation with constructors and object reference concepts
+- `02_CLASS_OBJECT/173_Car.js` - Class constructor with parameters (CAB pattern) and real-world examples
+- `02_CLASS_OBJECT/174_REAL_Browser.js` - TestCase class with constructor and methods for automation test representation
+- `02_CLASS_OBJECT/175_IQ.js` - Browser class with parameterized constructors and interview questions
+- `02_CLASS_OBJECT/176_Private_Public.js` - Private fields (#) and public fields with authentication header example
+- `02_CLASS_OBJECT/177_Statis.js` - Static properties and methods in classes with student examples
+- `02_CLASS_OBJECT/178_Statis.js` - Static fields and common functions with nationality example
+- `02_CLASS_OBJECT/Task_01.js` - Calculator class task with arithmetic operations
+- `02_CLASS_OBJECT/Task_02.js` - Students class task with static and non-static methods and variables
 - `EXPORT_IMPORT/168_EXPORT_IMPORT.js` - Importing named exports from utility modules
 - `EXPORT_IMPORT/169_Utils.js` - Importing with aliases from multiple utility modules
 - `EXPORT_IMPORT/170_Logger.js` - Importing default exports from logger module
@@ -860,4 +881,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 21, 2026
+**Last Updated:** June 22, 2026
