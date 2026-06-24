@@ -351,6 +351,28 @@ LearnPlaywrightBatch2x/
 │       ├── 169_Utils.js
 │       ├── 170_Logger.js
 │       └── ExplainDefault.md
+├── chapter_22_Encapsulation/
+│   ├── 179_Ecap.js
+│   ├── 180_REAL_EXAMPLE.js
+│   ├── 181_Ecap_Car.js
+│   └── 182_ECap_Bank.js
+├── chapter_23_Inheritance/
+│   ├── 183_Single_Inheritance.js
+│   ├── 184_SI_Example.js
+│   ├── 185_Single_Inheritance_Con.js
+│   ├── 186_IQ.js
+│   ├── 187_IQ2.js
+│   ├── 188_REAL_PageObject_Model.js
+│   ├── 189_Multiple_Inheritance.js
+│   ├── 190_Multiple_Level_Inheritance.js
+│   └── 191_Hierarchial_Inheritance.js
+├── chapter_24_Polymorphism/
+│   └── 192_Method_Overriding.js
+├── chapter_25_OOP_Interview_Questions/
+│   ├── EX1.js
+│   ├── EX2.js
+│   ├── EX3.js
+│   └── EX4.js
 ```
 
 ## Chapter Breakdown
@@ -663,6 +685,44 @@ Introduction to TypeScript fundamentals including module exports and imports, ut
 - `EXPORT_IMPORT/170_Logger.js` - Importing default exports from logger module
 - `EXPORT_IMPORT/ExplainDefault.md` - Explanation of default exports and imports in JavaScript/TypeScript modules
 
+### Chapter 22: Encapsulation
+Understanding encapsulation in JavaScript including private fields, getters, setters, and real-world examples like Car and Bank account models.
+
+**Files:**
+- `179_Ecap.js` - Introduction to encapsulation concepts
+- `180_REAL_EXAMPLE.js` - Real-world encapsulation examples
+- `181_Ecap_Car.js` - Car class encapsulation with private fields and getters/setters
+- `182_ECap_Bank.js` - Bank account encapsulation example
+
+### Chapter 23: Inheritance
+Comprehensive coverage of inheritance patterns in JavaScript including single, multiple, multi-level, and hierarchical inheritance with interview questions and Page Object Model examples.
+
+**Files:**
+- `183_Single_Inheritance.js` - Single inheritance basics
+- `184_SI_Example.js` - Single inheritance examples
+- `185_Single_Inheritance_Con.js` - Single inheritance with constructors and `super()`
+- `186_IQ.js` - Inheritance interview questions
+- `187_IQ2.js` - Advanced inheritance interview questions
+- `188_REAL_PageObject_Model.js` - Real-world Page Object Model using inheritance
+- `189_Multiple_Inheritance.js` - Multiple inheritance patterns in JavaScript
+- `190_Multiple_Level_Inheritance.js` - Multi-level inheritance chain examples
+- `191_Hierarchial_Inheritance.js` - Hierarchical inheritance with base and child classes
+
+### Chapter 24: Polymorphism
+Understanding polymorphism in JavaScript with method overriding concepts and practical examples.
+
+**Files:**
+- `192_Method_Overriding.js` - Method overriding basics and examples
+
+### Chapter 25: OOP Interview Questions
+Curated object-oriented programming interview questions and exercises covering encapsulation, inheritance, and polymorphism concepts.
+
+**Files:**
+- `EX1.js` - OOP interview exercise 1
+- `EX2.js` - OOP interview exercise 2
+- `EX3.js` - OOP interview exercise 3
+- `EX4.js` - OOP interview exercise 4
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -840,8 +900,12 @@ node chapter_01_Basics/01_Basics.js
 22. Study Chapter 20 to understand TypeScript basics, module exports/imports, and ES6 module patterns
 23. Study the Async/Await practice section to master async/await syntax, error handling, sequential and parallel execution, and real-world retry patterns
 24. Study the OOPs practice section to understand classes, objects, constructors, methods, and ES6 module exports/imports
-25. Explore advanced OOPs topics including inheritance (single, multi-level, hierarchical, multiple), polymorphism, method overriding, and Page Object Model patterns
-26. Solve the Playwright Test Challenges for real-world automation problem solving
+25. Study Chapter 22 to master encapsulation with private fields, getters, and setters
+26. Study Chapter 23 to understand inheritance patterns including single, multi-level, hierarchical, and multiple inheritance
+27. Study Chapter 24 to master polymorphism and method overriding in JavaScript
+28. Study Chapter 25 to practice OOP interview questions and exercises
+29. Explore advanced OOPs topics including inheritance (single, multi-level, hierarchical, multiple), polymorphism, method overriding, and Page Object Model patterns
+30. Solve the Playwright Test Challenges for real-world automation problem solving
 
 ## Playwright Test Challenges
 
@@ -881,4 +945,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 22, 2026
+**Last Updated:** June 24, 2026
