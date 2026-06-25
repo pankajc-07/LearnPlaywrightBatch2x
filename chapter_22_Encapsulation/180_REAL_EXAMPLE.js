@@ -41,8 +41,6 @@ class Person01 {
     setkid01(new_name) {
         this.#kid01 = new_name
     }
-
-
 }
 
 let p01 = new Person01("Virat", "Son");
