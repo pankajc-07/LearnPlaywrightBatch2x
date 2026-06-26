@@ -373,6 +373,22 @@ LearnPlaywrightBatch2x/
 │   ├── EX2.js
 │   ├── EX3.js
 │   └── EX4.js
+├── chapter_26_Typescript/
+│   ├── 193_TS.js
+│   ├── 194_TS_HelloWorld.js
+│   ├── 194_TS_HelloWorld.ts
+│   ├── 195_TS_Part1.ts
+│   ├── 196_TS_Part2.ts
+│   ├── 197_TS_Part2.ts
+│   ├── 198_Part3.ts
+│   ├── 199_IQ.ts
+│   └── 200_IQ.ts
+├── chapter_27_TypeScript_Interface/
+│   ├── 201_IF.ts
+│   ├── 202_IF_Part2.ts
+│   ├── 203_IF_READONLY.ts
+│   └── 204_IF_READOnly.ts
+├── tsconfig.json
 ```
 
 ## Chapter Breakdown
@@ -723,6 +739,29 @@ Curated object-oriented programming interview questions and exercises covering e
 - `EX3.js` - OOP interview exercise 3
 - `EX4.js` - OOP interview exercise 4
 
+### Chapter 26: TypeScript Basics
+Introduction to TypeScript fundamentals including basic syntax, type annotations, variable declarations, and core type system concepts with hands-on exercises and interview questions.
+
+**Files:**
+- `193_TS.js` - Introduction to TypeScript concepts
+- `194_TS_HelloWorld.js` - TypeScript Hello World in JavaScript
+- `194_TS_HelloWorld.ts` - TypeScript Hello World example
+- `195_TS_Part1.ts` - TypeScript part 1: basic types and annotations
+- `196_TS_Part2.ts` - TypeScript part 2: advanced type concepts
+- `197_TS_Part2.ts` - TypeScript part 2 continued
+- `198_Part3.ts` - TypeScript part 3: additional type features
+- `199_IQ.ts` - TypeScript interview questions
+- `200_IQ.ts` - More TypeScript interview questions
+
+### Chapter 27: TypeScript Interfaces
+Deep dive into TypeScript interfaces including object shapes, optional and readonly properties, and interface-based type contracts for scalable automation testing projects.
+
+**Files:**
+- `201_IF.ts` - Introduction to TypeScript interfaces
+- `202_IF_Part2.ts` - TypeScript interfaces part 2
+- `203_IF_READONLY.ts` - Readonly properties in interfaces
+- `204_IF_READOnly.ts` - Advanced readonly interface patterns
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -905,7 +944,9 @@ node chapter_01_Basics/01_Basics.js
 27. Study Chapter 24 to master polymorphism and method overriding in JavaScript
 28. Study Chapter 25 to practice OOP interview questions and exercises
 29. Explore advanced OOPs topics including inheritance (single, multi-level, hierarchical, multiple), polymorphism, method overriding, and Page Object Model patterns
-30. Solve the Playwright Test Challenges for real-world automation problem solving
+30. Study Chapter 26 to learn TypeScript basics, type annotations, and core type system concepts
+31. Study Chapter 27 to master TypeScript interfaces, readonly properties, and type contracts
+32. Solve the Playwright Test Challenges for real-world automation problem solving
 
 ## Playwright Test Challenges
 
@@ -945,4 +986,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 25, 2026
+**Last Updated:** June 26, 2026
