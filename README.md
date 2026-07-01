@@ -387,7 +387,27 @@ LearnPlaywrightBatch2x/
 │   ├── 201_IF.ts
 │   ├── 202_IF_Part2.ts
 │   ├── 203_IF_READONLY.ts
-│   └── 204_IF_READOnly.ts
+│   ├── 204_IF_READOnly.ts
+│   ├── 205_Interface.ts
+│   ├── 206_Hooks.ts
+│   ├── 207_Bug_REPORT.ts
+│   ├── 208_TestConfig.ts
+│   ├── 209_REAL_EXAMPLE.ts
+│   └── 210_Class_Interface.ts
+├── chapter_28_ENUM/
+│   ├── 211_ENUM.ts
+│   ├── 212_Enum_Fn.ts
+│   ├── 213_ENUM.ts
+│   └── 214_API_.ts
+├── chapter_29_Typescript_Generic/
+│   ├── 215_Generic.ts
+│   ├── 216_Generic_Class.ts
+│   └── 217_Generic_API_RESPONSE.ts
+├── chapter_30_PRIVATE_PUBLIC_PROTECTED/
+│   ├── 218_PPP.ts
+│   ├── 219_PageObjectModel.ts
+│   ├── 220_READONLY.ts
+│   └── 221_Abstract_Class.ts
 ├── tsconfig.json
 ```
 
@@ -761,6 +781,38 @@ Deep dive into TypeScript interfaces including object shapes, optional and reado
 - `202_IF_Part2.ts` - TypeScript interfaces part 2
 - `203_IF_READONLY.ts` - Readonly properties in interfaces
 - `204_IF_READOnly.ts` - Advanced readonly interface patterns
+- `205_Interface.ts` - Interface basics and practical examples
+- `206_Hooks.ts` - Interface patterns for test hooks and lifecycle management
+- `207_Bug_REPORT.ts` - Interface-based bug report structures and validation
+- `208_TestConfig.ts` - Test configuration interfaces and environment typing
+- `209_REAL_EXAMPLE.ts` - Real-world interface examples for automation testing
+- `210_Class_Interface.ts` - Combining classes with interfaces for robust type contracts
+
+### Chapter 28: TypeScript Enums
+Understanding TypeScript enums for defining a set of named constants, useful for test statuses, API response codes, and configuration states.
+
+**Files:**
+- `211_ENUM.ts` - Introduction to TypeScript enums with string and numeric values
+- `212_Enum_Fn.ts` - Enum usage within functions and conditional logic
+- `213_ENUM.ts` - Advanced enum patterns and reverse mappings
+- `214_API_.ts` - Real-world API status and response code enums
+
+### Chapter 29: TypeScript Generics
+Introduction to TypeScript generics for creating reusable components and functions that work with multiple types, with automation testing use cases.
+
+**Files:**
+- `215_Generic.ts` - Introduction to generics and the non-null assertion operator
+- `216_Generic_Class.ts` - Generic classes and type-safe data structures
+- `217_Generic_API_RESPONSE.ts` - Generic patterns for API response handling
+
+### Chapter 30: Access Modifiers (Private, Public, Protected)
+Deep dive into TypeScript access modifiers for controlling class member visibility, essential for building secure Page Object Models and API clients.
+
+**Files:**
+- `218_PPP.ts` - Private, public, and protected access modifiers with API client example
+- `219_PageObjectModel.ts` - Access modifiers in Page Object Model pattern
+- `220_READONLY.ts` - Readonly properties and immutable class members
+- `221_Abstract_Class.ts` - Abstract classes and inheritance with access control
 
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
@@ -946,7 +998,10 @@ node chapter_01_Basics/01_Basics.js
 29. Explore advanced OOPs topics including inheritance (single, multi-level, hierarchical, multiple), polymorphism, method overriding, and Page Object Model patterns
 30. Study Chapter 26 to learn TypeScript basics, type annotations, and core type system concepts
 31. Study Chapter 27 to master TypeScript interfaces, readonly properties, and type contracts
-32. Solve the Playwright Test Challenges for real-world automation problem solving
+32. Study Chapter 28 to learn TypeScript enums for test statuses and configuration states
+33. Study Chapter 29 to understand TypeScript generics for reusable type-safe components
+34. Study Chapter 30 to master access modifiers (private, public, protected) and abstract classes
+35. Solve the Playwright Test Challenges for real-world automation problem solving
 
 ## Playwright Test Challenges
 
@@ -986,4 +1041,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** June 28, 2026
+**Last Updated:** July 01, 2026
