@@ -1,5 +1,7 @@
+// This is not used in Playwright Automations
 abstract class BaseTest {
     protected testName: string;
+
     constructor(testName: string) {
         this.testName = testName;
     }
@@ -15,17 +17,20 @@ abstract class BaseTest {
 }
 
 class UITest extends BaseTest {
+
     setup(): void {
         console.log("  Setup: launch browser");
     }
+
     execute(): void {
         console.log("  Execute: click buttons, fill forms");
     }
+
     teardown(): void {
         console.log("  Teardown: close browser");
     }
+
     loan(): void {
         console.log("  GIVE LOAN");
-
     }
 }
