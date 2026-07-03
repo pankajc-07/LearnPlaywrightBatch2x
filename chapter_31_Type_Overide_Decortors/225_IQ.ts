@@ -1,0 +1,20 @@
+class Father {
+    home(): void {
+        console.log("2BHK");
+    }
+}
+
+class Pramod extends Father {
+
+
+    override home(): void {
+        console.log("3BHK");
+    }
+}
+
+let pramod = new Pramod();
+pramod.home();
+console.log("*************");
+
+// let parent = new Father();
+// parent.home();

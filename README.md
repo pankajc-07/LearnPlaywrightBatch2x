@@ -408,6 +408,23 @@ LearnPlaywrightBatch2x/
 │   ├── 219_PageObjectModel.ts
 │   ├── 220_READONLY.ts
 │   └── 221_Abstract_Class.ts
+├── chapter_31_Type_Overide_Decortors/
+│   ├── 222_Type_As.ts
+│   ├── 223_Type_Alias_As.ts
+│   ├── 224_Override.ts
+│   ├── 225_IQ.ts
+│   ├── 226_Decorator.ts
+│   ├── 227_Decortors_2.ts
+│   ├── 228_Multiple_Decor.ts
+│   └── tsconfig.json
+├── chapter_32_Playwright_Fundamentals/
+│   ├── .gitignore
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── playwright.config.ts
+│   └── tests/
+│       ├── example.spec.ts
+│       └── tsconfig.json
 ├── tsconfig.json
 ```
 
@@ -814,6 +831,30 @@ Deep dive into TypeScript access modifiers for controlling class member visibili
 - `220_READONLY.ts` - Readonly properties and immutable class members
 - `221_Abstract_Class.ts` - Abstract classes and inheritance with access control
 
+### Chapter 31: Type Override and Decorators
+Advanced TypeScript concepts including type assertions (`as`), type aliases, `override` keyword, and TypeScript decorators for metadata and method interception.
+
+**Files:**
+- `222_Type_As.ts` - Type assertions with `as` for casting `unknown` types to specific interfaces (element, API response, input element, JWT payload, chat message)
+- `223_Type_Alias_As.ts` - Type alias usage with assertions
+- `224_Override.ts` - Using the `override` keyword in class inheritance
+- `225_IQ.ts` - Interview questions on type assertions and overrides
+- `226_Decorator.ts` - Introduction to TypeScript decorators with method decorator example (`@Log` on Calculator class)
+- `227_Decortors_2.ts` - Advanced decorator patterns
+- `228_Multiple_Decor.ts` - Multiple decorators and decorator composition
+- `tsconfig.json` - Chapter-specific TypeScript configuration with `target: es2022` for decorator down-leveling
+
+### Chapter 32: Playwright Fundamentals
+A fresh Playwright automation testing project covering project setup, configuration, and foundational end-to-end tests using modern Playwright patterns.
+
+**Files:**
+- `.gitignore` - Git ignore rules for Playwright project
+- `package.json` - Playwright project dependencies (`@playwright/test`, `@types/node`)
+- `package-lock.json` - Locked dependency versions
+- `playwright.config.ts` - Playwright configuration with Chromium project, HTML reporter, CI retry settings, and trace collection
+- `tests/example.spec.ts` - Basic Playwright test verifying TTACart page title
+- `tests/tsconfig.json` - Test-specific TypeScript configuration
+
 ### Practice JS: Arrays & Functions
 Hands-on practice modules for JavaScript arrays and functions.
 
@@ -1001,7 +1042,9 @@ node chapter_01_Basics/01_Basics.js
 32. Study Chapter 28 to learn TypeScript enums for test statuses and configuration states
 33. Study Chapter 29 to understand TypeScript generics for reusable type-safe components
 34. Study Chapter 30 to master access modifiers (private, public, protected) and abstract classes
-35. Solve the Playwright Test Challenges for real-world automation problem solving
+35. Study Chapter 31 to learn type assertions, type aliases, override keyword, and TypeScript decorators
+36. Study Chapter 32 to set up a fresh Playwright project and write foundational end-to-end tests
+37. Solve the Playwright Test Challenges for real-world automation problem solving
 
 ## Playwright Test Challenges
 
@@ -1041,4 +1084,4 @@ This educational repository is provided for learning purposes.
 
 ---
 
-**Last Updated:** July 02, 2026
+**Last Updated:** July 03, 2026

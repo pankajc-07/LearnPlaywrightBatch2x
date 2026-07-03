@@ -1,0 +1,15 @@
+{
+    // Local tsconfig so this Playwright project does NOT inherit the repo-root
+    // tsconfig (which sets "types": [] and switches off @types/node → `process` errors).
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "types": [
+            "node"
+        ],
+        "strict": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true
+    }
+}
